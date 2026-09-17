@@ -1,0 +1,1719 @@
+{
+  "id": "ld-organics",
+  "title": "LD Organics",
+  "total": 100,
+  "category": "постоянные",
+  "videoId": "",
+  "reward": [
+    {
+      "name": "White LD Organics Tee + Black LD Organics Cap",
+      "type": "clothing",
+      "image": ""
+    }
+  ],
+  "rewardText": "$150 000 суммарно + White LD Organics Tee + Black LD Organics Cap",
+  "items": [
+    {
+      "id": 1,
+      "name": "LD Organics №1",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "На вентиляционной решётке крыши ангара LSIA.",
+      "x": 29.505,
+      "y": 93.042,
+      "coords": {
+        "x": -1639.591187,
+        "y": -3165.079346,
+        "z": 39.753998
+      },
+      "timestamp": 40,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 2,
+      "name": "LD Organics №2",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "На силовом щитке на стене ангара Девина Уэстона.",
+      "x": 38.403,
+      "y": 91.112,
+      "coords": {
+        "x": -927.759949,
+        "y": -2933.451416,
+        "z": 12.651655
+      },
+      "timestamp": 101,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 3,
+      "name": "LD Organics №3",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Внутри охранной будки.",
+      "x": 40.136,
+      "y": 84.054,
+      "coords": {
+        "x": -789.148926,
+        "y": -2086.453613,
+        "z": 7.868331
+      },
+      "timestamp": 136,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 4,
+      "name": "LD Organics №4",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "На пожарном шкафу корабля.",
+      "x": 47.545,
+      "y": 86.286,
+      "coords": {
+        "x": -196.400894,
+        "y": -2354.278564,
+        "z": 8.019203
+      },
+      "timestamp": 175,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 5,
+      "name": "LD Organics №5",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "В охранной будке парковки Los Santos State Gas Company.",
+      "x": 57.26,
+      "y": 85.71,
+      "coords": {
+        "x": 580.838501,
+        "y": -2285.202637,
+        "z": 5.090649
+      },
+      "timestamp": 213,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 6,
+      "name": "LD Organics №6",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "На красном ящике Sea Urchin.",
+      "x": 55.392,
+      "y": 90.911,
+      "coords": {
+        "x": 431.341522,
+        "y": -2909.287109,
+        "z": 5.436247
+      },
+      "timestamp": 249,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 7,
+      "name": "LD Organics №7",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "В мусорном баке под эстакадой Elysian Freeway.",
+      "x": 62.271,
+      "y": 88.198,
+      "coords": {
+        "x": 981.682495,
+        "y": -2583.772461,
+        "z": 9.118197
+      },
+      "timestamp": 278,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 8,
+      "name": "LD Organics №8",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "В одной из сложенных труб.",
+      "x": 68.771,
+      "y": 87.613,
+      "coords": {
+        "x": 1501.666382,
+        "y": -2513.611328,
+        "z": 54.945652
+      },
+      "timestamp": 309,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 9,
+      "name": "LD Organics №9",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "На бетонном блоке рядом с ржавыми трубами.",
+      "x": 69.688,
+      "y": 81.106,
+      "coords": {
+        "x": 1575.026245,
+        "y": -1732.672119,
+        "z": 86.631668
+      },
+      "timestamp": 337,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 10,
+      "name": "LD Organics №10",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "У входа в онкологическое отделение больницы.",
+      "x": 63.738,
+      "y": 79.417,
+      "coords": {
+        "x": 1099.009155,
+        "y": -1530.05542,
+        "z": 33.593697
+      },
+      "timestamp": 372,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 11,
+      "name": "LD Organics №11",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "На погрузчике в Ла-Месе.",
+      "x": 62.066,
+      "y": 81.767,
+      "coords": {
+        "x": 965.25946,
+        "y": -1812.040161,
+        "z": 29.857653
+      },
+      "timestamp": 403,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 12,
+      "name": "LD Organics №12",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "В трубе на промышленной площадке.",
+      "x": 52.54,
+      "y": 81.328,
+      "coords": {
+        "x": 203.190384,
+        "y": -1759.328491,
+        "z": 32.034737
+      },
+      "timestamp": 439,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 13,
+      "name": "LD Organics №13",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "На объекте в промышленной зоне.",
+      "x": 46.108,
+      "y": 80.217,
+      "coords": {
+        "x": -311.345673,
+        "y": -1626.026611,
+        "z": 30.548828
+      },
+      "timestamp": 466,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 14,
+      "name": "LD Organics №14",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "На связке балок под Interstate 5 в Ла-Пуэрте.",
+      "x": 43.592,
+      "y": 80.231,
+      "coords": {
+        "x": -512.658936,
+        "y": -1627.704224,
+        "z": 16.497797
+      },
+      "timestamp": 497,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 15,
+      "name": "LD Organics №15",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "На выступе крыши Straight & Direct Piping Component.",
+      "x": 45.91,
+      "y": 78.108,
+      "coords": {
+        "x": -327.19223,
+        "y": -1372.985596,
+        "z": 39.870495
+      },
+      "timestamp": 525,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 16,
+      "name": "LD Organics №16",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "На электросчётчике в Vinewood Public Storage.",
+      "x": 48.544,
+      "y": 75.214,
+      "coords": {
+        "x": -116.485207,
+        "y": -1025.631348,
+        "z": 25.97356
+      },
+      "timestamp": 555,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 17,
+      "name": "LD Organics №17",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "В одной из труб на стройке Pillbox Hill.",
+      "x": 49.146,
+      "y": 76.924,
+      "coords": {
+        "x": -68.344734,
+        "y": -1230.825684,
+        "z": 27.627985
+      },
+      "timestamp": 592,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 18,
+      "name": "LD Organics №18",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "В кашпо.",
+      "x": 53.316,
+      "y": 77.798,
+      "coords": {
+        "x": 265.315613,
+        "y": -1335.774292,
+        "z": 34.720203
+      },
+      "timestamp": 621,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 19,
+      "name": "LD Organics №19",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "На воздуховоде HVAC на крыше.",
+      "x": 56.382,
+      "y": 77.788,
+      "coords": {
+        "x": 510.572876,
+        "y": -1334.510132,
+        "z": 28.421722
+      },
+      "timestamp": 650,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 20,
+      "name": "LD Organics №20",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "В заброшенном автобусе Hayes Autos.",
+      "x": 60.242,
+      "y": 73.298,
+      "coords": {
+        "x": 819.376587,
+        "y": -795.71051,
+        "z": 33.835701
+      },
+      "timestamp": 680,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 21,
+      "name": "LD Organics №21",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "На воздуховоде HVAC Otto’s Auto Parts.",
+      "x": 55.998,
+      "y": 71.463,
+      "coords": {
+        "x": 479.860535,
+        "y": -575.588867,
+        "z": 27.618357
+      },
+      "timestamp": 708,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 22,
+      "name": "LD Organics №22",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "В заброшенном автобусе рядом с Dashound Bus Center.",
+      "x": 51.655,
+      "y": 71.477,
+      "coords": {
+        "x": 132.428726,
+        "y": -577.21521,
+        "z": 17.507729
+      },
+      "timestamp": 738,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 23,
+      "name": "LD Organics №23",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "В подземной части станции Pillbox North, на бетонной скамье.",
+      "x": 46.925,
+      "y": 73.231,
+      "coords": {
+        "x": -245.976196,
+        "y": -787.738586,
+        "z": 29.154032
+      },
+      "timestamp": 774,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 24,
+      "name": "LD Organics №24",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "На выступе клумбы.",
+      "x": 42.593,
+      "y": 73.963,
+      "coords": {
+        "x": -592.522522,
+        "y": -875.586182,
+        "z": 24.614355
+      },
+      "timestamp": 802,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 25,
+      "name": "LD Organics №25",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "На столе для пикника в парке.",
+      "x": 38.378,
+      "y": 72.895,
+      "coords": {
+        "x": -929.763611,
+        "y": -747.427856,
+        "z": 18.62603
+      },
+      "timestamp": 831,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 26,
+      "name": "LD Organics №26",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 37.085,
+      "y": 73.548,
+      "coords": {
+        "x": -1033.204712,
+        "y": -825.79187,
+        "z": 17.95974
+      },
+      "timestamp": 862,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 27,
+      "name": "LD Organics №27",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 38.273,
+      "y": 75.362,
+      "coords": {
+        "x": -938.177917,
+        "y": -1043.420532,
+        "z": -0.60863
+      },
+      "timestamp": 893,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 28,
+      "name": "LD Organics №28",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 37.366,
+      "y": 79.098,
+      "coords": {
+        "x": -1010.695679,
+        "y": -1491.754395,
+        "z": 3.604206
+      },
+      "timestamp": 979,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 29,
+      "name": "LD Organics №29",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 32.58,
+      "y": 78.722,
+      "coords": {
+        "x": -1393.607544,
+        "y": -1446.624023,
+        "z": 2.887035
+      },
+      "timestamp": 1008,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 30,
+      "name": "LD Organics №30",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 29.533,
+      "y": 75.261,
+      "coords": {
+        "x": -1637.373047,
+        "y": -1031.280518,
+        "z": 11.851959
+      },
+      "timestamp": 1035,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 31,
+      "name": "LD Organics №31",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 29.02,
+      "y": 70.366,
+      "coords": {
+        "x": -1678.423096,
+        "y": -443.927795,
+        "z": 38.483566
+      },
+      "timestamp": 1070,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 32,
+      "name": "LD Organics №32",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 31.203,
+      "y": 66.978,
+      "coords": {
+        "x": -1503.745728,
+        "y": -37.329578,
+        "z": 53.243389
+      },
+      "timestamp": 1102,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 33,
+      "name": "LD Organics №33",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 34.219,
+      "y": 69.722,
+      "coords": {
+        "x": -1262.451782,
+        "y": -366.614532,
+        "z": 43.45433
+      },
+      "timestamp": 1133,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 34,
+      "name": "LD Organics №34",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 39.48,
+      "y": 69.558,
+      "coords": {
+        "x": -841.597412,
+        "y": -346.902344,
+        "z": 37.380272
+      },
+      "timestamp": 1162,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 35,
+      "name": "LD Organics №35",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 46.285,
+      "y": 69.236,
+      "coords": {
+        "x": -297.170166,
+        "y": -308.295044,
+        "z": 8.763151
+      },
+      "timestamp": 1197,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 36,
+      "name": "LD Organics №36",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 51.198,
+      "y": 68.788,
+      "coords": {
+        "x": 95.869972,
+        "y": -254.531021,
+        "z": 46.116302
+      },
+      "timestamp": 1235,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 37,
+      "name": "LD Organics №37",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 62.358,
+      "y": 67.557,
+      "coords": {
+        "x": 988.656128,
+        "y": -106.808197,
+        "z": 73.014679
+      },
+      "timestamp": 1264,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 38,
+      "name": "LD Organics №38",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 61.953,
+      "y": 66.057,
+      "coords": {
+        "x": 956.222717,
+        "y": 73.160774,
+        "z": 111.253021
+      },
+      "timestamp": 1293,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 39,
+      "name": "LD Organics №39",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 59.396,
+      "y": 65.016,
+      "coords": {
+        "x": 751.708496,
+        "y": 198.12851,
+        "z": 84.395142
+      },
+      "timestamp": 1354,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 40,
+      "name": "LD Organics №40",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 53.12,
+      "y": 65.606,
+      "coords": {
+        "x": 249.578156,
+        "y": 127.240631,
+        "z": 101.228523
+      },
+      "timestamp": 1385,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 41,
+      "name": "LD Organics №41",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 49.305,
+      "y": 65.993,
+      "coords": {
+        "x": -55.575882,
+        "y": 80.792549,
+        "z": 70.316154
+      },
+      "timestamp": 1420,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 42,
+      "name": "LD Organics №42",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 41.578,
+      "y": 66.161,
+      "coords": {
+        "x": -673.76178,
+        "y": 60.644909,
+        "z": 61.142216
+      },
+      "timestamp": 1454,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 43,
+      "name": "LD Organics №43",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 37.479,
+      "y": 65.591,
+      "coords": {
+        "x": -1001.687195,
+        "y": 129.134018,
+        "z": 54.353683
+      },
+      "timestamp": 1481,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 44,
+      "name": "LD Organics №44",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 44.624,
+      "y": 64.254,
+      "coords": {
+        "x": -430.087677,
+        "y": 289.548492,
+        "z": 84.762535
+      },
+      "timestamp": 1512,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 45,
+      "name": "LD Organics №45",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 45.465,
+      "y": 61.905,
+      "coords": {
+        "x": -362.765869,
+        "y": 571.388306,
+        "z": 125.681259
+      },
+      "timestamp": 1540,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 46,
+      "name": "LD Organics №46",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 40.457,
+      "y": 60.784,
+      "coords": {
+        "x": -763.409485,
+        "y": 705.948853,
+        "z": 143.446472
+      },
+      "timestamp": 1576,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 47,
+      "name": "LD Organics №47",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 31.981,
+      "y": 61.931,
+      "coords": {
+        "x": -1441.487061,
+        "y": 568.260254,
+        "z": 120.69619
+      },
+      "timestamp": 1619,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 48,
+      "name": "LD Organics №48",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 30.118,
+      "y": 59.99,
+      "coords": {
+        "x": -1590.532349,
+        "y": 801.258484,
+        "z": 184.694351
+      },
+      "timestamp": 1648,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 49,
+      "name": "LD Organics №49",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 24.528,
+      "y": 62.165,
+      "coords": {
+        "x": -2037.735352,
+        "y": 540.247498,
+        "z": 108.744835
+      },
+      "timestamp": 1679,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 50,
+      "name": "LD Organics №50",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 12.822,
+      "y": 66.509,
+      "coords": {
+        "x": -2974.210205,
+        "y": 18.889187,
+        "z": 6.031772
+      },
+      "timestamp": 1712,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 51,
+      "name": "LD Organics №51",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 11.343,
+      "y": 61.164,
+      "coords": {
+        "x": -3092.544922,
+        "y": 660.318848,
+        "z": 0.215441
+      },
+      "timestamp": 1751,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 52,
+      "name": "LD Organics №52",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 9.532,
+      "y": 57.465,
+      "coords": {
+        "x": -3237.4021,
+        "y": 1104.249023,
+        "z": 1.188924
+      },
+      "timestamp": 1782,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 53,
+      "name": "LD Organics №53",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 17.11,
+      "y": 51.038,
+      "coords": {
+        "x": -2631.177734,
+        "y": 1875.496826,
+        "z": 158.834534
+      },
+      "timestamp": 1812,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 54,
+      "name": "LD Organics №54",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 26.542,
+      "y": 49.764,
+      "coords": {
+        "x": -1876.608887,
+        "y": 2028.375977,
+        "z": 138.758072
+      },
+      "timestamp": 1845,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 55,
+      "name": "LD Organics №55",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 44.325,
+      "y": 57.672,
+      "coords": {
+        "x": -454.003876,
+        "y": 1079.33374,
+        "z": 326.387726
+      },
+      "timestamp": 1876,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 56,
+      "name": "LD Organics №56",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 47.57,
+      "y": 60.064,
+      "coords": {
+        "x": -194.401459,
+        "y": 792.325195,
+        "z": 196.807419
+      },
+      "timestamp": 1912,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 57,
+      "name": "LD Organics №57",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 51.938,
+      "y": 57.511,
+      "coords": {
+        "x": 155.068375,
+        "y": 1098.637939,
+        "z": 230.294312
+      },
+      "timestamp": 1951,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 58,
+      "name": "LD Organics №58",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 54.308,
+      "y": 58.78,
+      "coords": {
+        "x": 344.665619,
+        "y": 946.386108,
+        "z": 202.873535
+      },
+      "timestamp": 1979,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 59,
+      "name": "LD Organics №59",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 58.298,
+      "y": 55.966,
+      "coords": {
+        "x": 663.868958,
+        "y": 1284.111694,
+        "z": 358.99585
+      },
+      "timestamp": 2011,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 60,
+      "name": "LD Organics №60",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 68.325,
+      "y": 57.524,
+      "coords": {
+        "x": 1466.005859,
+        "y": 1097.177856,
+        "z": 113.034355
+      },
+      "timestamp": 2041,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 61,
+      "name": "LD Organics №61",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 65.274,
+      "y": 50.812,
+      "coords": {
+        "x": 1221.956421,
+        "y": 1902.520508,
+        "z": 76.562859
+      },
+      "timestamp": 2069,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 62,
+      "name": "LD Organics №62",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 62.746,
+      "y": 46.191,
+      "coords": {
+        "x": 1019.640503,
+        "y": 2457.058105,
+        "z": 43.444405
+      },
+      "timestamp": 2104,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 63,
+      "name": "LD Organics №63",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 49.536,
+      "y": 50.515,
+      "coords": {
+        "x": -37.153618,
+        "y": 1938.182617,
+        "z": 188.883713
+      },
+      "timestamp": 2132,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 64,
+      "name": "LD Organics №64",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 50.539,
+      "y": 43.414,
+      "coords": {
+        "x": 43.08099,
+        "y": 2790.261475,
+        "z": 56.578163
+      },
+      "timestamp": 2164,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 65,
+      "name": "LD Organics №65",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 56.82,
+      "y": 42.648,
+      "coords": {
+        "x": 545.614014,
+        "y": 2882.219727,
+        "z": 41.679726
+      },
+      "timestamp": 2197,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 66,
+      "name": "LD Organics №66",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 66.55,
+      "y": 41.604,
+      "coords": {
+        "x": 1324.035767,
+        "y": 3007.556641,
+        "z": 42.604656
+      },
+      "timestamp": 2228,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 67,
+      "name": "LD Organics №67",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 71.755,
+      "y": 38.947,
+      "coords": {
+        "x": 1740.390869,
+        "y": 3326.346436,
+        "z": 39.923492
+      },
+      "timestamp": 2261,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 68,
+      "name": "LD Organics №68",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 70.524,
+      "y": 44.527,
+      "coords": {
+        "x": 1641.923706,
+        "y": 2656.749268,
+        "z": 53.859383
+      },
+      "timestamp": 2291,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 69,
+      "name": "LD Organics №69",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 83.792,
+      "y": 37.32,
+      "coords": {
+        "x": 2703.370361,
+        "y": 3521.617188,
+        "z": 60.22607
+      },
+      "timestamp": 2324,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 70,
+      "name": "LD Organics №70",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 72.095,
+      "y": 34.029,
+      "coords": {
+        "x": 1767.593628,
+        "y": 3916.542236,
+        "z": 33.495781
+      },
+      "timestamp": 2355,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 71,
+      "name": "LD Organics №71",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 51.216,
+      "y": 36.656,
+      "coords": {
+        "x": 97.244194,
+        "y": 3601.231934,
+        "z": 38.475475
+      },
+      "timestamp": 2382,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 72,
+      "name": "LD Organics №72",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 50.836,
+      "y": 35.341,
+      "coords": {
+        "x": 66.890533,
+        "y": 3759.07666,
+        "z": 38.434311
+      },
+      "timestamp": 2413,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 73,
+      "name": "LD Organics №73",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 47.311,
+      "y": 36.652,
+      "coords": {
+        "x": -215.138885,
+        "y": 3601.778564,
+        "z": 60.218693
+      },
+      "timestamp": 2449,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 74,
+      "name": "LD Organics №74",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 30.04,
+      "y": 41.221,
+      "coords": {
+        "x": -1596.789795,
+        "y": 3053.469971,
+        "z": 31.266129
+      },
+      "timestamp": 2481,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 75,
+      "name": "LD Organics №75",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 25.782,
+      "y": 38.907,
+      "coords": {
+        "x": -1937.468872,
+        "y": 3331.188965,
+        "z": 31.660271
+      },
+      "timestamp": 2510,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 76,
+      "name": "LD Organics №76",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 18.609,
+      "y": 36.545,
+      "coords": {
+        "x": -2511.248535,
+        "y": 3614.657715,
+        "z": 12.376076
+      },
+      "timestamp": 2541,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 77,
+      "name": "LD Organics №77",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 22.514,
+      "y": 31.36,
+      "coords": {
+        "x": -2198.904053,
+        "y": 4236.828125,
+        "z": 46.647755
+      },
+      "timestamp": 2580,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 78,
+      "name": "LD Organics №78",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 29.881,
+      "y": 22.821,
+      "coords": {
+        "x": -1609.538696,
+        "y": 5261.478516,
+        "z": 2.674101
+      },
+      "timestamp": 2610,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 79,
+      "name": "LD Organics №79",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 35.644,
+      "y": 25.414,
+      "coords": {
+        "x": -1148.510498,
+        "y": 4950.374023,
+        "z": 219.811066
+      },
+      "timestamp": 2645,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 80,
+      "name": "LD Organics №80",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 42.736,
+      "y": 21.943,
+      "coords": {
+        "x": -581.103149,
+        "y": 5366.845703,
+        "z": 69.095642
+      },
+      "timestamp": 2670,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 81,
+      "name": "LD Organics №81",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 45.868,
+      "y": 14.284,
+      "coords": {
+        "x": -330.538971,
+        "y": 6285.976562,
+        "z": 33.952309
+      },
+      "timestamp": 2702,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 82,
+      "name": "LD Organics №82",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 49.833,
+      "y": 12.577,
+      "coords": {
+        "x": -13.326262,
+        "y": 6490.762695,
+        "z": 35.981071
+      },
+      "timestamp": 2735,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 83,
+      "name": "LD Organics №83",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 55.506,
+      "y": 12.86,
+      "coords": {
+        "x": 440.511658,
+        "y": 6456.798828,
+        "z": 34.564949
+      },
+      "timestamp": 2764,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 84,
+      "name": "LD Organics №84",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 68.054,
+      "y": 13.896,
+      "coords": {
+        "x": 1444.303223,
+        "y": 6332.455078,
+        "z": 22.659355
+      },
+      "timestamp": 2791,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 85,
+      "name": "LD Organics №85",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 87.293,
+      "y": 13.586,
+      "coords": {
+        "x": 2983.449463,
+        "y": 6369.726562,
+        "z": 0.898607
+      },
+      "timestamp": 2827,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 86,
+      "name": "LD Organics №86",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 93.187,
+      "y": 20.733,
+      "coords": {
+        "x": 3454.956543,
+        "y": 5512.063965,
+        "z": 17.329334
+      },
+      "timestamp": 2856,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 87,
+      "name": "LD Organics №87",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 77.408,
+      "y": 20.045,
+      "coords": {
+        "x": 2192.620117,
+        "y": 5594.607422,
+        "z": 52.466324
+      },
+      "timestamp": 2880,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 88,
+      "name": "LD Organics №88",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 76.763,
+      "y": 26.757,
+      "coords": {
+        "x": 2141.041504,
+        "y": 4789.162598,
+        "z": 39.670288
+      },
+      "timestamp": 2916,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 89,
+      "name": "LD Organics №89",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 67.294,
+      "y": 30.932,
+      "coords": {
+        "x": 1383.546143,
+        "y": 4288.118164,
+        "z": 35.108391
+      },
+      "timestamp": 2946,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 90,
+      "name": "LD Organics №90",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 58.901,
+      "y": 32.418,
+      "coords": {
+        "x": 712.077026,
+        "y": 4109.881836,
+        "z": 29.999672
+      },
+      "timestamp": 2976,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 91,
+      "name": "LD Organics №91",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 54.082,
+      "y": 29.747,
+      "coords": {
+        "x": 326.540894,
+        "y": 4430.394531,
+        "z": 63.106991
+      },
+      "timestamp": 3007,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 92,
+      "name": "LD Organics №92",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 56.215,
+      "y": 19.956,
+      "coords": {
+        "x": 497.237762,
+        "y": 5605.266602,
+        "z": 794.619507
+      },
+      "timestamp": 3036,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 93,
+      "name": "LD Organics №93",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 97.741,
+      "y": 29.256,
+      "coords": {
+        "x": 3819.259521,
+        "y": 4489.3125,
+        "z": 2.815895
+      },
+      "timestamp": 3063,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 94,
+      "name": "LD Organics №94",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 95.11,
+      "y": 36.46,
+      "coords": {
+        "x": 3608.801758,
+        "y": 3624.821533,
+        "z": 40.040405
+      },
+      "timestamp": 3091,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 95,
+      "name": "LD Organics №95",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 82.667,
+      "y": 43.479,
+      "coords": {
+        "x": 2613.37085,
+        "y": 2782.523438,
+        "z": 32.373497
+      },
+      "timestamp": 3121,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 96,
+      "name": "LD Organics №96",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 81.471,
+      "y": 44.873,
+      "coords": {
+        "x": 2517.705566,
+        "y": 2615.296631,
+        "z": 36.660057
+      },
+      "timestamp": 3154,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 97,
+      "name": "LD Organics №97",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 83.281,
+      "y": 52.987,
+      "coords": {
+        "x": 2662.471436,
+        "y": 1641.583618,
+        "z": 23.571112
+      },
+      "timestamp": 3180,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 98,
+      "name": "LD Organics №98",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 81.239,
+      "y": 70.253,
+      "coords": {
+        "x": 2499.1521,
+        "y": -430.399994,
+        "z": 91.692825
+      },
+      "timestamp": 3210,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 99,
+      "name": "LD Organics №99",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 73.77,
+      "y": 61.896,
+      "coords": {
+        "x": 1901.587524,
+        "y": 572.471802,
+        "z": 175.2798
+      },
+      "timestamp": 3240,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    },
+    {
+      "id": 100,
+      "name": "LD Organics №100",
+      "district": "Лос-Сантос / округ Блейн",
+      "location": "Точная точка LD Organics по координатам из опубликованного маршрута.",
+      "x": 70.848,
+      "y": 66.895,
+      "coords": {
+        "x": 1667.827637,
+        "y": -27.415535,
+        "z": 183.469055
+      },
+      "timestamp": 3271,
+      "image": "",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854572063",
+      "videoUrl": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+    }
+  ],
+  "mapUrl": "https://gtalens.com/map/ld-organics",
+  "videoSource": "https://rutube.ru/video/7b7ba1961169c040051d1ac7fbb21fc1/"
+}

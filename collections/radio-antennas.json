@@ -1,0 +1,128 @@
+{
+  "id": "radio-antennas",
+  "title": "радиоантенны",
+  "total": 10,
+  "category": "постоянные",
+  "videoId": "",
+  "reward": [
+    {
+      "name": "Warped Still Sipping Tee",
+      "type": "clothing",
+      "image": ""
+    }
+  ],
+  "rewardText": "$250 000 + 10 000 RP + футболка Warped Still Sipping",
+  "items": [
+    {
+      "id": 1,
+      "name": "радиоантенна №1",
+      "district": "Палето-Бэй",
+      "location": "на крыше здания в юго-западной части Палето-Бэй.",
+      "x": 25,
+      "y": 15,
+      "timestamp": null,
+      "image": "",
+      "source": "https://www.pcgamer.com/gta-antenna-locations-still-slipping/"
+    },
+    {
+      "id": 2,
+      "name": "радиоантенна №2",
+      "district": "гора Чилиад",
+      "location": "на металлической платформе станции канатной дороги на вершине горы Чилиад.",
+      "x": 70,
+      "y": 32,
+      "timestamp": null,
+      "image": "",
+      "source": "https://www.pcgamer.com/gta-antenna-locations-still-slipping/"
+    },
+    {
+      "id": 3,
+      "name": "радиоантенна №3",
+      "district": "пустыня Гранд-Сенора",
+      "location": "на территории Rebel Radio.",
+      "x": 65,
+      "y": 22,
+      "timestamp": null,
+      "image": "",
+      "source": "https://www.pcgamer.com/gta-antenna-locations-still-slipping/"
+    },
+    {
+      "id": 4,
+      "name": "радиоантенна №4",
+      "district": "Пасифик-Блаффс",
+      "location": "на крыше Kortz Center рядом с большой антенной.",
+      "x": 36,
+      "y": 17,
+      "timestamp": null,
+      "image": "",
+      "source": "https://www.pcgamer.com/gta-antenna-locations-still-slipping/"
+    },
+    {
+      "id": 5,
+      "name": "радиоантенна №5",
+      "district": "Вайнвуд-Хиллз",
+      "location": "у основания одной из больших антенн за знаком Vinewood.",
+      "x": 22,
+      "y": 39,
+      "timestamp": null,
+      "image": "",
+      "source": "https://www.pcgamer.com/gta-antenna-locations-still-slipping/"
+    },
+    {
+      "id": 6,
+      "name": "радиоантенна №6",
+      "district": "Сэнди-Шорс",
+      "location": "рядом с трейлером Тревора / трейлером Рона.",
+      "x": 50,
+      "y": 30,
+      "timestamp": null,
+      "image": "",
+      "source": "https://www.pcgamer.com/gta-antenna-locations-still-slipping/"
+    },
+    {
+      "id": 7,
+      "name": "радиоантенна №7",
+      "district": "Бёртон",
+      "location": "на крыше торгового центра за двумя спутниковыми тарелками.",
+      "x": 50,
+      "y": 50,
+      "timestamp": null,
+      "image": "",
+      "source": "https://www.pcgamer.com/gta-antenna-locations-still-slipping/"
+    },
+    {
+      "id": 8,
+      "name": "радиоантенна №8",
+      "district": "Веспуччи-Бич",
+      "location": "на крыше здания с видом на тренировочную площадку.",
+      "x": 50,
+      "y": 50,
+      "timestamp": null,
+      "image": "",
+      "source": "https://www.pcgamer.com/gta-antenna-locations-still-slipping/"
+    },
+    {
+      "id": 9,
+      "name": "радиоантенна №9",
+      "district": "Сайпресс-Флэтс",
+      "location": "на крыше здания в центре района.",
+      "x": 78,
+      "y": 50,
+      "timestamp": null,
+      "image": "",
+      "source": "https://www.pcgamer.com/gta-antenna-locations-still-slipping/"
+    },
+    {
+      "id": 10,
+      "name": "радиоантенна №10",
+      "district": "горный хребет Сан-Чиански",
+      "location": "в огороженной зоне рядом с вышкой связи.",
+      "x": 42,
+      "y": 37,
+      "timestamp": null,
+      "image": "",
+      "source": "https://www.pcgamer.com/gta-antenna-locations-still-slipping/"
+    }
+  ],
+  "mapUrl": "https://gtalens.com/map/radio-antennas"
+}

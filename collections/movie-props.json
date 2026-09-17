@@ -1,0 +1,178 @@
+{
+  "id": "movie-props",
+  "title": "реквизит Соломона",
+  "total": 10,
+  "category": "постоянные",
+  "videoId": "eU4tfrEzxTM",
+  "reward": [
+    {
+      "name": "The Space Interloper",
+      "type": "outfit",
+      "image": ""
+    }
+  ],
+  "rewardText": "$150 000 суммарно + The Space Interloper Outfit",
+  "items": [
+    {
+      "id": 1,
+      "name": "реквизит №1",
+      "district": "Бэклот-Сити",
+      "location": "Плёнка Meltdown — снаружи офиса Соломона, рядом с мусорным баком.",
+      "x": 51.178,
+      "y": 77.458,
+      "timestamp": null,
+      "image": "https://www.gamerguides.com/assets/media/17/36/GTA_Online_Prop_1_Location_Grand_Theft_Auto_V1.jpg",
+      "coords": {
+        "x": 94.202,
+        "y": -1294.965,
+        "z": 29.067
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/movie-props-1-10"
+    },
+    {
+      "id": 2,
+      "name": "реквизит №2",
+      "district": "Строберри",
+      "location": "Награда WIFA — на столе в заднем офисе Vanilla Unicorn.",
+      "x": 37.374,
+      "y": 70.851,
+      "timestamp": null,
+      "image": "https://www.gamerguides.com/assets/media/17/36/GTA_Online_Prop_2_Location_Grand_Theft_Auto_V1.jpg",
+      "coords": {
+        "x": -1010.051,
+        "y": -502.175,
+        "z": 36.493
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/movie-props-1-10"
+    },
+    {
+      "id": 3,
+      "name": "реквизит №3",
+      "district": "Казино",
+      "location": "Головной убор — в восточном туалете Diamond Casino.",
+      "x": 64.568,
+      "y": 64.604,
+      "timestamp": null,
+      "image": "https://www.gamerguides.com/assets/media/17/36/GTA_Online_Prop_3_Location_Grand_Theft_Auto_V1.jpg",
+      "coords": {
+        "x": 1165.416,
+        "y": 247.5531,
+        "z": -50.73
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/movie-props-1-10"
+    },
+    {
+      "id": 4,
+      "name": "реквизит №4",
+      "district": "Гранд-Сенора",
+      "location": "Голова пришельца — на мурале Beam Me Up.",
+      "x": 81.466,
+      "y": 35.089,
+      "timestamp": null,
+      "image": "https://www.gamerguides.com/assets/media/17/36/GTA_Online_Prop_4_Location_Grand_Theft_Auto_V1.jpg",
+      "coords": {
+        "x": 2517.254,
+        "y": 3789.326,
+        "z": 53.698
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/movie-props-1-10"
+    },
+    {
+      "id": 5,
+      "name": "реквизит №5",
+      "district": "Гранд-Сенора",
+      "location": "Голова мумии — на крыльце старого дома.",
+      "x": 49.478,
+      "y": 42.723,
+      "timestamp": null,
+      "image": "https://www.gamerguides.com/assets/media/17/36/GTA_Online_Prop_5_Location_Grand_Theft_Auto_V1.jpg",
+      "coords": {
+        "x": -41.795,
+        "y": 2873.231,
+        "z": 59.625
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/movie-props-1-10"
+    },
+    {
+      "id": 6,
+      "name": "реквизит №6",
+      "district": "Форт-Занкудо",
+      "location": "Хлопушка — на столе в офисе первого этажа диспетчерской башни.",
+      "x": 20.637,
+      "y": 39.41,
+      "timestamp": null,
+      "image": "https://www.gamerguides.com/assets/media/17/36/GTA_Online_Prop_6_Location_Grand_Theft_Auto_V1.jpg",
+      "coords": {
+        "x": -2349.036,
+        "y": 3270.785,
+        "z": 32.968
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/movie-props-1-10"
+    },
+    {
+      "id": 7,
+      "name": "реквизит №7",
+      "district": "Чилиад-Маунтин",
+      "location": "Голова монстра — на камнях западнее лагеря Altruist.",
+      "x": 35.38,
+      "y": 25.608,
+      "timestamp": null,
+      "image": "https://www.gamerguides.com/assets/media/17/36/GTA_Online_Prop_7_Location_Grand_Theft_Auto_V1.jpg",
+      "coords": {
+        "x": -1169.573,
+        "y": 4926.988,
+        "z": 223.728
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/movie-props-1-10"
+    },
+    {
+      "id": 8,
+      "name": "реквизит №8",
+      "district": "Текстайл-Сити",
+      "location": "Rumpo — один из случайных вариантов события.",
+      "x": 59.3,
+      "y": 74.761,
+      "timestamp": null,
+      "image": "https://www.gamerguides.com/assets/media/17/36/GTA_Online_Prop_8_Location_Grand_Theft_Auto_V1.jpg",
+      "coords": {
+        "x": 744.011,
+        "y": -971.328,
+        "z": 23.585
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/movie-props-1-10"
+    },
+    {
+      "id": 9,
+      "name": "реквизит №9",
+      "district": "Кортц",
+      "location": "Pony — случайный вариант события возле Kortz Center.",
+      "x": 21.047,
+      "y": 64.33,
+      "timestamp": null,
+      "image": "https://www.gamerguides.com/assets/media/17/36/GTA_Online_Prop_9_Location_Grand_Theft_Auto_V1.jpg",
+      "coords": {
+        "x": -2316.255,
+        "y": 280.381,
+        "z": 168.467
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/movie-props-1-10"
+    },
+    {
+      "id": 10,
+      "name": "реквизит №10",
+      "district": "Палето-Бэй",
+      "location": "Rebel — случайный вариант события в северной части карты.",
+      "x": 46.367,
+      "y": 14.138,
+      "timestamp": null,
+      "image": "https://www.gamerguides.com/assets/media/17/36/GTA_Online_Prop_10_Location_Grand_Theft_Auto_V1.jpg",
+      "coords": {
+        "x": -290.654,
+        "y": 6303.431,
+        "z": 30.492
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/movie-props-1-10"
+    }
+  ],
+  "mapUrl": "https://gtadb.net/gta-online-map/movie-props/"
+}

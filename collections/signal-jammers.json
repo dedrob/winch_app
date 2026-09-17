@@ -1,0 +1,818 @@
+{
+  "id": "signal-jammers",
+  "title": "глушилки сигнала",
+  "total": 50,
+  "category": "постоянные",
+  "videoId": "",
+  "mapUrl": "https://gtalens.com/map/signal-jammers",
+  "reward": [
+    {
+      "name": "$150 000 + 50 000 RP + Avi Schwartzman",
+      "type": "reward",
+      "image": ""
+    }
+  ],
+  "rewardText": "$150 000 суммарно + 50 000 RP + Avi Шварцман для ограбления казино",
+  "items": [
+    {
+      "id": 1,
+      "name": "Глушилка №1",
+      "district": "LSIA District",
+      "location": "на вершине диспетчерской вышки аэропорта Лос-Сантос.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_1_Location_GTA_Online.jpg",
+      "x": 62.58,
+      "y": 90.681,
+      "timestamp": null,
+      "coords": {
+        "x": 1006.372,
+        "y": -2881.68,
+        "z": 30.422
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 2,
+      "name": "Глушилка №2",
+      "district": "La Puerta",
+      "location": "на верхней части главного входа Maze Bank Arena, между словами Bank и Maze.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_2_Location_GTA_Online.jpg",
+      "x": 37.747,
+      "y": 88.648,
+      "timestamp": null,
+      "coords": {
+        "x": -980.242,
+        "y": -2637.703,
+        "z": 88.528
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 3,
+      "name": "Глушилка №3",
+      "district": "Port of Los Santos",
+      "location": "на эстакаде Miriam Turner, со стороны северо-востока.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_3_Location_GTA_Online.jpg",
+      "x": 41.398,
+      "y": 78.328,
+      "timestamp": null,
+      "coords": {
+        "x": -688.195,
+        "y": -1399.329,
+        "z": 23.331
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 4,
+      "name": "Глушилка №4",
+      "district": "Cypress Flats",
+      "location": "на вершине основного силоса Los Santos State Gas Company.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_4_Location_GTA_Online.jpg",
+      "x": 64.009,
+      "y": 79.493,
+      "timestamp": null,
+      "coords": {
+        "x": 1120.696,
+        "y": -1539.165,
+        "z": 54.871
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 5,
+      "name": "Глушилка №5",
+      "district": "Terminal",
+      "location": "на контейнеровозе Ocean Motion, с восточной стороны между надписями Safety и First.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_5_Location_GTA_Online.jpg",
+      "x": 80.689,
+      "y": 69.855,
+      "timestamp": null,
+      "coords": {
+        "x": 2455.134,
+        "y": -382.585,
+        "z": 112.635
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 6,
+      "name": "Глушилка №6",
+      "district": "El Burro Heights",
+      "location": "на крыше St. Fiacre Hospital, рядом с дверью на крышу, сбоку от бетонного блока.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_6_Location_GTA_Online.jpg",
+      "x": 59.923,
+      "y": 72.644,
+      "timestamp": null,
+      "coords": {
+        "x": 793.878,
+        "y": -717.299,
+        "z": 48.083
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 7,
+      "name": "Глушилка №7",
+      "district": "East Los Santos",
+      "location": "на ржавом силосе Murrieta Oil Field, почти у самой верхушки.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_7_Location_GTA_Online.jpg",
+      "x": 47.896,
+      "y": 71.585,
+      "timestamp": null,
+      "coords": {
+        "x": -168.3,
+        "y": -590.153,
+        "z": 210.936
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 8,
+      "name": "Глушилка №8",
+      "district": "Popular Street",
+      "location": "на рекламном щите с надписью Ban Windmills, севернее Casey’s Diner.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_8_Location_GTA_Online.jpg",
+      "x": 33.771,
+      "y": 70.299,
+      "timestamp": null,
+      "coords": {
+        "x": -1298.343,
+        "y": -435.8369,
+        "z": 108.129
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 9,
+      "name": "Глушилка №9",
+      "district": "Strawberry",
+      "location": "на вершине Central Los Santos Medical Center, на северо-восточной стороне, между словами Central и Los.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_9_Location_GTA_Online.jpg",
+      "x": 21.544,
+      "y": 63.874,
+      "timestamp": null,
+      "coords": {
+        "x": -2276.484,
+        "y": 335.0941,
+        "z": 195.723
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 10,
+      "name": "Глушилка №10",
+      "district": "Pillbox Hill",
+      "location": "на вывеске Hookah Palace, над рекламой Fame or Shame после второй буквы O.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_10_Location_GTA_Online.jpg",
+      "x": 41.659,
+      "y": 64.762,
+      "timestamp": null,
+      "coords": {
+        "x": -667.25,
+        "y": 228.545,
+        "z": 154.051
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 11,
+      "name": "Глушилка №11",
+      "district": "Puerto del Sol / Vespucci",
+      "location": "на верхушке красно-белой антенны у вертолётной площадки Vespucci на Shank Street.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_11_Location_GTA_Online.jpg",
+      "x": 58.532,
+      "y": 61.937,
+      "timestamp": null,
+      "coords": {
+        "x": 682.561,
+        "y": 567.5302,
+        "z": 153.895
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 12,
+      "name": "Глушилка №12",
+      "district": "Pillbox Hill",
+      "location": "на крыше Arcadius Business Center, рядом с верхней антенной.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_12_Location_GTA_Online.jpg",
+      "x": 84.032,
+      "y": 53.849,
+      "timestamp": null,
+      "coords": {
+        "x": 2722.561,
+        "y": 1538.103,
+        "z": 85.202
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 13,
+      "name": "Глушилка №13",
+      "district": "Del Perro Pier",
+      "location": "в центре колеса Ferris Whale в парке развлечений Pleasure Pier.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_13_Location_GTA_Online.jpg",
+      "x": 59.482,
+      "y": 56.053,
+      "timestamp": null,
+      "coords": {
+        "x": 758.539,
+        "y": 1273.687,
+        "z": 445.181
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 14,
+      "name": "Глушилка №14",
+      "district": "Del Perro",
+      "location": "на самом верху Clock Tower, над часами.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_14_Location_GTA_Online.jpg",
+      "x": 11.509,
+      "y": 60.262,
+      "timestamp": null,
+      "coords": {
+        "x": -3079.258,
+        "y": 768.5189,
+        "z": 31.569
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 15,
+      "name": "Глушилка №15",
+      "district": "Morningwood",
+      "location": "на доме Elgin, рядом с блоком кондиционера Wiwang на крыше.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_15_Location_GTA_Online.jpg",
+      "x": 20.508,
+      "y": 39.61,
+      "timestamp": null,
+      "coords": {
+        "x": -2359.338,
+        "y": 3246.831,
+        "z": 104.188
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 16,
+      "name": "Глушилка №16",
+      "district": "West Eclipse Boulevard",
+      "location": "над входом в Richman Hotel, внутри декоративной конструкции вроде колокольни.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_16_Location_GTA_Online.jpg",
+      "x": 71.172,
+      "y": 44.528,
+      "timestamp": null,
+      "coords": {
+        "x": 1693.732,
+        "y": 2656.602,
+        "z": 60.84
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 17,
+      "name": "Глушилка №17",
+      "district": "West Vinewood",
+      "location": "на вершине большого жёлтого крана южнее Eclipse Towers, сбоку кабины.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_17_Location_GTA_Online.jpg",
+      "x": 94.438,
+      "y": 35.959,
+      "timestamp": null,
+      "coords": {
+        "x": 3555.018,
+        "y": 3684.98,
+        "z": 61.27
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 18,
+      "name": "Глушилка №18",
+      "district": "Rockford Hills",
+      "location": "на вершине городской ратуши Rockford Hills, под маленьким куполом, сбоку зелёного карниза.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_18_Location_GTA_Online.jpg",
+      "x": 73.363,
+      "y": 35.713,
+      "timestamp": null,
+      "coords": {
+        "x": 1869.022,
+        "y": 3714.435,
+        "z": 117.068
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 19,
+      "name": "Глушилка №19",
+      "district": "Downtown Vinewood",
+      "location": "на крыше здания Pacific Standard Public Deposit Bank, выше рекламного щита Flow Water.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_19_Location_GTA_Online.jpg",
+      "x": 86.282,
+      "y": 30.628,
+      "timestamp": null,
+      "coords": {
+        "x": 2902.552,
+        "y": 4324.699,
+        "z": 101.106
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 20,
+      "name": "Глушилка №20",
+      "district": "Vinewood Hills",
+      "location": "на крыше Vinewood Bowl, на боковой части конструкции.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_20_Location_GTA_Online.jpg",
+      "x": 43.642,
+      "y": 29.778,
+      "timestamp": null,
+      "coords": {
+        "x": -508.6141,
+        "y": 4426.661,
+        "z": 87.511
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 21,
+      "name": "Глушилка №21",
+      "district": "Palomino Freeway",
+      "location": "в центре вывески Bishop’s Chicken у Tataviam truckstop.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_21_Location_GTA_Online.jpg",
+      "x": 48.695,
+      "y": 14.773,
+      "timestamp": null,
+      "coords": {
+        "x": -104.417,
+        "y": 6227.278,
+        "z": 63.696
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 22,
+      "name": "Глушилка №22",
+      "district": "San Chianski Mountain Range",
+      "location": "почти на вершине одной из ветряных турбин на южной границе RON Alternates Wind Farm.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_22_Location_GTA_Online.jpg",
+      "x": 70.094,
+      "y": 13.022,
+      "timestamp": null,
+      "coords": {
+        "x": 1607.501,
+        "y": 6437.315,
+        "z": 32.162
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 23,
+      "name": "Глушилка №23",
+      "district": "Vinewood Hills",
+      "location": "на вершине статуи с парящей планетой у Galileo Observatory.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_23_Location_GTA_Online.jpg",
+      "x": 84.912,
+      "y": 16.717,
+      "timestamp": null,
+      "coords": {
+        "x": 2792.933,
+        "y": 5993.922,
+        "z": 366.867
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 24,
+      "name": "Глушилка №24",
+      "district": "Los Santos River",
+      "location": "на западной стене большого здания Land Act Dam, между двумя окнами.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_24_Location_GTA_Online.jpg",
+      "x": 71.508,
+      "y": 26.479,
+      "timestamp": null,
+      "coords": {
+        "x": 1720.613,
+        "y": 4822.467,
+        "z": 59.7
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 25,
+      "name": "Глушилка №25",
+      "district": "Hawick",
+      "location": "почти на вершине большой антенны на Badger Building.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_25_Location_GTA_Online.jpg",
+      "x": 29.237,
+      "y": 76.056,
+      "timestamp": null,
+      "coords": {
+        "x": -1661.01,
+        "y": -1126.742,
+        "z": 29.773
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-1-25"
+    },
+    {
+      "id": 26,
+      "name": "Глушилка №26",
+      "district": "Los Santos Government Facility",
+      "location": "на западной стороне здания NOOSE HQ, сверху блоков кондиционеров.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_26_Location_GTA_Online.jpg",
+      "x": 26.581,
+      "y": 49.514,
+      "timestamp": null,
+      "coords": {
+        "x": -1873.49,
+        "y": 2058.357,
+        "z": 154.407
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    },
+    {
+      "id": 27,
+      "name": "Глушилка №27",
+      "district": "San Chianski Mountain Range",
+      "location": "на вершине самого высокого дымохода Palmer-Taylor Power Station.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_27_Location_GTA_Online.jpg",
+      "x": 76.531,
+      "y": 52.076,
+      "timestamp": null,
+      "coords": {
+        "x": 2122.46,
+        "y": 1750.886,
+        "z": 138.114
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    },
+    {
+      "id": 28,
+      "name": "Глушилка №28",
+      "district": "Ineseno Road",
+      "location": "на внешней стороне пешеходного моста через Great Ocean Highway, у северного конца Ineseno Road.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_28_Location_GTA_Online.jpg",
+      "x": 44.782,
+      "y": 57.057,
+      "timestamp": null,
+      "coords": {
+        "x": -417.424,
+        "y": 1153.143,
+        "z": 339.128
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    },
+    {
+      "id": 29,
+      "name": "Глушилка №29",
+      "district": "Kortz Drive",
+      "location": "внутри буквы O вывески Kortz, обращённой во внутренний двор.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_29_Location_GTA_Online.jpg",
+      "x": 91.299,
+      "y": 23.585,
+      "timestamp": null,
+      "coords": {
+        "x": 3303.901,
+        "y": 5169.792,
+        "z": 28.735
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    },
+    {
+      "id": 30,
+      "name": "Глушилка №30",
+      "district": "Grand Senora Desert",
+      "location": "почти на вершине вышки радиостанции Rebel Radio рядом со зданием.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_30_Location_GTA_Online.jpg",
+      "x": 37.427,
+      "y": 26.232,
+      "timestamp": null,
+      "coords": {
+        "x": -1005.848,
+        "y": 4852.147,
+        "z": 302.025
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    },
+    {
+      "id": 31,
+      "name": "Глушилка №31",
+      "district": "Grand Senora Desert",
+      "location": "на верхушке красно-белой антенны у вертолётной площадки.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_31_Location_GTA_Online.jpg",
+      "x": 46.167,
+      "y": 43.126,
+      "timestamp": null,
+      "coords": {
+        "x": -306.627,
+        "y": 2824.859,
+        "z": 69.512
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    },
+    {
+      "id": 32,
+      "name": "Глушилка №32",
+      "district": "Grand Senora Desert",
+      "location": "на крыше Bolingbroke Penitentiary, на маленьком блоке кондиционера возле двух радарных антенн.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_32_Location_GTA_Online.jpg",
+      "x": 70.758,
+      "y": 66.901,
+      "timestamp": null,
+      "coords": {
+        "x": 1660.663,
+        "y": -28.07,
+        "z": 179.137
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    },
+    {
+      "id": 33,
+      "name": "Глушилка №33",
+      "district": "Grand Senora Desert",
+      "location": "в центре логотипа Stoner Cement Works на большом синем здании.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_33_Location_GTA_Online.jpg",
+      "x": 59.433,
+      "y": 45.133,
+      "timestamp": null,
+      "coords": {
+        "x": 754.647,
+        "y": 2584.067,
+        "z": 133.904
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    },
+    {
+      "id": 34,
+      "name": "Глушилка №34",
+      "district": "Tongva Hills",
+      "location": "на самом большом здании Marlowe Vineyards, сразу под крышей.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_34_Location_GTA_Online.jpg",
+      "x": 46.501,
+      "y": 82.63,
+      "timestamp": null,
+      "coords": {
+        "x": -279.9081,
+        "y": -1915.608,
+        "z": 54.173
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    },
+    {
+      "id": 35,
+      "name": "Глушилка №35",
+      "district": "San Chianski Mountain Range",
+      "location": "на правой стороне самой большой белой трубы Humane Labs Research.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_35_Location_GTA_Online.jpg",
+      "x": 46.744,
+      "y": 86.765,
+      "timestamp": null,
+      "coords": {
+        "x": -260.4421,
+        "y": -2411.807,
+        "z": 126.019
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    },
+    {
+      "id": 36,
+      "name": "Глушилка №36",
+      "district": "Senora Freeway",
+      "location": "на здании Union Grain Supply Inc. над хранилищем, с видом на силосы.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_36_Location_GTA_Online.jpg",
+      "x": 56.902,
+      "y": 85.182,
+      "timestamp": null,
+      "coords": {
+        "x": 552.132,
+        "y": -2221.853,
+        "z": 73
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    },
+    {
+      "id": 37,
+      "name": "Глушилка №37",
+      "district": "Blaine County",
+      "location": "на красно-белой антенне на вершине Mount Gordo, на одном из повторителей.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_37_Location_GTA_Online.jpg",
+      "x": 54.93,
+      "y": 78.351,
+      "timestamp": null,
+      "coords": {
+        "x": 394.3919,
+        "y": -1402.144,
+        "z": 76.267
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    },
+    {
+      "id": 38,
+      "name": "Глушилка №38",
+      "district": "Blaine County",
+      "location": "на дымоходе дома у маяка El Gordo Lighthouse.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_38_Location_GTA_Online.jpg",
+      "x": 70.122,
+      "y": 85.365,
+      "timestamp": null,
+      "coords": {
+        "x": 1609.791,
+        "y": -2243.767,
+        "z": 130.187
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    },
+    {
+      "id": 39,
+      "name": "Глушилка №39",
+      "district": "Grapeseed",
+      "location": "на водонапорной башне Los Santos Department of Water & Power, прямо на логотипе.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_39_Location_GTA_Online.jpg",
+      "x": 52.929,
+      "y": 64.827,
+      "timestamp": null,
+      "coords": {
+        "x": 234.2919,
+        "y": 220.771,
+        "z": 168.981
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    },
+    {
+      "id": 40,
+      "name": "Глушилка №40",
+      "district": "Blaine County",
+      "location": "на вершине станции канатной дороги Mount Chiliad, рядом с другими антеннами.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_40_Location_GTA_Online.jpg",
+      "x": 34.536,
+      "y": 73.754,
+      "timestamp": null,
+      "coords": {
+        "x": -1237.121,
+        "y": -850.4969,
+        "z": 82.98
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    },
+    {
+      "id": 41,
+      "name": "Глушилка №41",
+      "district": "North Alamo Pier",
+      "location": "на крыше маленького деревянного дома в конце пирса.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_41_Location_GTA_Online.jpg",
+      "x": 34.091,
+      "y": 64.017,
+      "timestamp": null,
+      "coords": {
+        "x": -1272.732,
+        "y": 317.9532,
+        "z": 90.352
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    },
+    {
+      "id": 42,
+      "name": "Глушилка №42",
+      "district": "Blaine County",
+      "location": "на вершине диспетчерской вышки Fort Zancudo, чуть ниже большой радиолокационной антенны.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_42_Location_GTA_Online.jpg",
+      "x": 50.001,
+      "y": 75.02,
+      "timestamp": null,
+      "coords": {
+        "x": 0.088,
+        "y": -1002.404,
+        "z": 96.32
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    },
+    {
+      "id": 43,
+      "name": "Глушилка №43",
+      "district": "Chiliad Mountain State Wilderness",
+      "location": "на вершине радиовышки рядом с лагерем Altruist.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_43_Location_GTA_Online.jpg",
+      "x": 55.882,
+      "y": 67.542,
+      "timestamp": null,
+      "coords": {
+        "x": 470.5569,
+        "y": -105.049,
+        "z": 135.908
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    },
+    {
+      "id": 44,
+      "name": "Глушилка №44",
+      "district": "Great Ocean Highway",
+      "location": "в центре логотипа на фальшивой ракете вывески Up-n-Atom у Procopio Truck Stop.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_44_Location_GTA_Online.jpg",
+      "x": 43.143,
+      "y": 68.317,
+      "timestamp": null,
+      "coords": {
+        "x": -548.5471,
+        "y": -197.9911,
+        "z": 82.813
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    },
+    {
+      "id": 45,
+      "name": "Глушилка №45",
+      "district": "Paleto Bay",
+      "location": "на главном здании Clucking Bell Farms, сразу под крышей.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_45_Location_GTA_Online.jpg",
+      "x": 82.263,
+      "y": 62.817,
+      "timestamp": null,
+      "coords": {
+        "x": 2581.047,
+        "y": 461.9421,
+        "z": 115.095
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    },
+    {
+      "id": 46,
+      "name": "Глушилка №46",
+      "district": "Raton Canyon",
+      "location": "на правой стороне моста Raton Canyon, примерно посередине.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_46_Location_GTA_Online.jpg",
+      "x": 59.002,
+      "y": 32.52,
+      "timestamp": null,
+      "coords": {
+        "x": 720.14,
+        "y": 4097.634,
+        "z": 38.075
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    },
+    {
+      "id": 47,
+      "name": "Глушилка №47",
+      "district": "Blaine County / North Chumash",
+      "location": "на вывеске Hookies Restaurant, прямо на синей рыбе.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_47_Location_GTA_Online.jpg",
+      "x": 65.531,
+      "y": 51.033,
+      "timestamp": null,
+      "coords": {
+        "x": 1242.471,
+        "y": 1876.068,
+        "z": 92.242
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    },
+    {
+      "id": 48,
+      "name": "Глушилка №48",
+      "district": "Sandy Shores",
+      "location": "на вершине радиовышки рядом с полицейским участком и Sandy Shores Medical Center.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_48_Location_GTA_Online.jpg",
+      "x": 84.401,
+      "y": 37.727,
+      "timestamp": null,
+      "coords": {
+        "x": 2752.113,
+        "y": 3472.779,
+        "z": 67.911
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    },
+    {
+      "id": 49,
+      "name": "Глушилка №49",
+      "district": "Mount Haan Drive",
+      "location": "на большой антенне севернее знака Vinewood, на самой вершине.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_49_Location_GTA_Online.jpg",
+      "x": 22.602,
+      "y": 30.897,
+      "timestamp": null,
+      "coords": {
+        "x": -2191.856,
+        "y": 4292.408,
+        "z": 55.013
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    },
+    {
+      "id": 50,
+      "name": "Глушилка №50",
+      "district": "West Eclipse Boulevard",
+      "location": "на внешней стороне церкви Hill Valley, с северной стороны над большим окном.",
+      "image": "https://www.gamerguides.com/assets/media/17/36/Signal_Jammers_50_Location_GTA_Online.jpg",
+      "x": 55.631,
+      "y": 20.154,
+      "timestamp": null,
+      "coords": {
+        "x": 450.475,
+        "y": 5581.514,
+        "z": 794.0683
+      },
+      "source": "https://www.gamerguides.com/grand-theft-auto-v/guide/gta-online/collectibles/signal-jammers-26-50"
+    }
+  ]
+}

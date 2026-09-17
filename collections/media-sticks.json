@@ -1,0 +1,117 @@
+{
+  "id": "media-sticks",
+  "title": "Media Sticks",
+  "total": 9,
+  "category": "постоянные",
+  "videoId": "",
+  "reward": [
+    {
+      "name": "Circoloco Tee",
+      "type": "clothing",
+      "image": ""
+    }
+  ],
+  "rewardText": "CLR Launch Party mix + CircoLoco Tee; дополнительные Media Sticks открывают треки других DLC.",
+  "items": [
+    {
+      "id": 1,
+      "name": "Black EP",
+      "district": "Лос-Сантос",
+      "location": "LS Car Meet, красный ящик с инструментами в зоне модификации.",
+      "x": 56,
+      "y": 62,
+      "timestamp": null,
+      "image": "",
+      "source": "https://gta.fandom.com/wiki/Media_Sticks"
+    },
+    {
+      "id": 2,
+      "name": "Blue EP",
+      "district": "Лос-Сантос",
+      "location": "крыша Diamond Casino, второй столик/зона отдыха.",
+      "x": 50,
+      "y": 50,
+      "timestamp": null,
+      "image": "",
+      "source": "https://gta.fandom.com/wiki/Media_Sticks"
+    },
+    {
+      "id": 3,
+      "name": "Violet EP",
+      "district": "Лос-Сантос",
+      "location": "стол Тони Принса в офисе ночного клуба.",
+      "x": 50,
+      "y": 50,
+      "timestamp": null,
+      "image": "",
+      "source": "https://gta.fandom.com/wiki/Media_Sticks"
+    },
+    {
+      "id": 4,
+      "name": "Green EP",
+      "district": "Лос-Сантос",
+      "location": "бар внутри Arcade.",
+      "x": 50,
+      "y": 50,
+      "timestamp": null,
+      "image": "",
+      "source": "https://gta.fandom.com/wiki/Media_Sticks"
+    },
+    {
+      "id": 5,
+      "name": "Kenny's Backyard Boogie",
+      "district": "Лос-Сантос",
+      "location": "багажник белого Gauntlet Hellfire Moodymann внутри LS Car Meet.",
+      "x": 50,
+      "y": 50,
+      "timestamp": null,
+      "image": "",
+      "source": "https://gta.fandom.com/wiki/Media_Sticks"
+    },
+    {
+      "id": 6,
+      "name": "Let's Get It",
+      "district": "Рокфорд-Хиллз",
+      "location": "дом Франклина, стол рядом с барбекю у бассейна.",
+      "x": 50,
+      "y": 30,
+      "timestamp": null,
+      "image": "",
+      "source": "https://gta.fandom.com/wiki/Media_Sticks"
+    },
+    {
+      "id": 7,
+      "name": "You Wanna?",
+      "district": "Рокфорд-Хиллз",
+      "location": "крыша Record A Studios.",
+      "x": 50,
+      "y": 50,
+      "timestamp": null,
+      "image": "",
+      "source": "https://gta.fandom.com/wiki/Media_Sticks"
+    },
+    {
+      "id": 8,
+      "name": "Even the Score — Galileo",
+      "district": "Вайнвуд-Хиллз",
+      "location": "край площадки у Galileo Observatory.",
+      "x": 50,
+      "y": 50,
+      "timestamp": null,
+      "image": "",
+      "source": "https://gta.fandom.com/wiki/Media_Sticks"
+    },
+    {
+      "id": 9,
+      "name": "Even the Score — Del Perro Pier",
+      "district": "Дель-Перро",
+      "location": "киоск на Del Perro Pier.",
+      "x": 50,
+      "y": 50,
+      "timestamp": null,
+      "image": "",
+      "source": "https://gta.fandom.com/wiki/Media_Sticks"
+    }
+  ],
+  "mapUrl": "https://gtalens.com/map/media-sticks"
+}
