@@ -6093,7 +6093,7 @@ body:not(.light-theme) .home-card-arrow-ref { color: #ddd3ca; }
     overflow: hidden !important;
     border-radius: 9px !important;
     border: 1px solid var(--border-strong) !important;
-    background-image: url("assets/home/hero-los-santos.jpg") !important;
+    background-image: url("assets/home/hero-reference.png") !important;
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -6205,4 +6205,297 @@ body:not(.light-theme) .home-card-arrow-ref { color: #ddd3ca; }
     .home-card-copy-ref small { font-size: 8px !important; }
     .home-card-overlay-ref { padding: 0 7px 7px !important; }
     .home-card-ref::after { left: 7px !important; bottom: 5px !important; width: 24px !important; }
+}
+
+/* =========================================================
+   CLEAN HOME / THEME SYSTEM
+   ========================================================= */
+
+:root {
+    --home-bg: #0d1011;
+    --home-surface: #14191a;
+    --home-surface-2: #1a2021;
+    --home-text: #f0ebe3;
+    --home-muted: #a49f98;
+    --home-accent: #e84f82;
+    --home-border: rgba(255,255,255,.10);
+    --home-header: rgba(13,16,17,.92);
+}
+
+body.light-theme {
+    --home-bg: #e9e1e1;
+    --home-surface: #f4eeee;
+    --home-surface-2: #ebe2e3;
+    --home-text: #241f24;
+    --home-muted: #6f666c;
+    --home-accent: #c84f77;
+    --home-border: rgba(43,34,40,.15);
+    --home-header: rgba(233,225,225,.94);
+}
+
+html, body {
+    background: var(--home-bg);
+}
+
+body {
+    color: var(--home-text);
+    transition: background-color .2s ease, color .2s ease;
+}
+
+.app {
+    background: var(--home-bg);
+}
+
+/* home header */
+.home-content-ref {
+    background: var(--home-bg);
+    min-height: 100vh;
+    padding: 0 12px 24px !important;
+}
+
+.home-topbar {
+    position: sticky !important;
+    top: 0;
+    z-index: 20;
+    margin: 0 -12px 8px;
+    padding: 13px 14px 11px !important;
+    background: var(--home-header) !important;
+    border-bottom: 1px solid var(--home-border) !important;
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+}
+
+.home-topbar .brand {
+    color: var(--home-text) !important;
+    font-family: "Oswald", sans-serif !important;
+    font-size: 24px !important;
+    font-weight: 500 !important;
+    letter-spacing: .5px !important;
+    line-height: .95 !important;
+}
+
+.home-topbar .brand em {
+    font-style: normal;
+    font-weight: 400;
+}
+
+.home-topbar .subtitle {
+    color: var(--home-accent) !important;
+    font-family: "Oswald", sans-serif !important;
+    font-size: 8px !important;
+    font-weight: 500 !important;
+    letter-spacing: 2px !important;
+}
+
+.home-topbar .topbar-actions {
+    gap: 5px !important;
+}
+
+.home-topbar .topbar-icon,
+.home-topbar .theme-toggle {
+    width: 34px !important;
+    height: 34px !important;
+    min-width: 34px !important;
+    flex-basis: 34px !important;
+    border: 1px solid var(--home-border) !important;
+    border-radius: 7px !important;
+    background: var(--home-surface) !important;
+    color: var(--home-text) !important;
+    box-shadow: none !important;
+}
+
+.home-topbar .theme-toggle {
+    color: var(--home-accent) !important;
+    border-color: color-mix(in srgb, var(--home-accent) 55%, transparent) !important;
+}
+
+.home-topbar .topbar-icon:hover,
+.home-topbar .theme-toggle:hover {
+    background: var(--home-surface-2) !important;
+    border-color: color-mix(in srgb, var(--home-accent) 65%, transparent) !important;
+}
+
+/* hero */
+.home-hero-ref {
+    aspect-ratio: 558 / 313 !important;
+    width: 100%;
+    margin: 0 0 8px !important;
+    border: 1px solid var(--home-border) !important;
+    border-radius: 8px !important;
+    background-color: #15191a !important;
+    background-image: url("assets/home/hero-reference.png") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    box-shadow: 0 7px 22px rgba(0,0,0,.16) !important;
+}
+
+/* the selected hero image already contains its typography */
+.home-hero-ref .hero-home-content-ref {
+    display: none !important;
+}
+
+/* cards */
+.home-cards-ref {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0,1fr)) !important;
+    gap: 7px !important;
+}
+
+.home-card-ref {
+    position: relative !important;
+    display: block !important;
+    width: 100% !important;
+    aspect-ratio: 353 / 126 !important;
+    min-height: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    border: 1px solid var(--home-border) !important;
+    border-radius: 8px !important;
+    background: var(--home-surface) !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,.12) !important;
+    text-align: left !important;
+    transform: translateZ(0);
+}
+
+.home-card-image-ref {
+    position: absolute !important;
+    inset: 0 !important;
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    transform: scale(1.001);
+    transition: transform .22s ease, filter .22s ease;
+}
+
+.home-card-overlay-ref {
+    position: absolute !important;
+    inset: 0 !important;
+    z-index: 2 !important;
+    display: flex !important;
+    align-items: flex-end !important;
+    padding: 0 10px 9px !important;
+    background: linear-gradient(
+        180deg,
+        rgba(0,0,0,0) 28%,
+        rgba(0,0,0,.16) 48%,
+        rgba(0,0,0,.82) 100%
+    ) !important;
+}
+
+.home-card-copy-ref {
+    display: flex !important;
+    flex-direction: column !important;
+    min-width: 0 !important;
+}
+
+.home-card-copy-ref strong {
+    color: #fff !important;
+    font-family: "Oswald", sans-serif !important;
+    font-size: clamp(15px, 3.1vw, 20px) !important;
+    font-weight: 500 !important;
+    line-height: .98 !important;
+    letter-spacing: .2px !important;
+    text-shadow: 0 2px 7px rgba(0,0,0,.75) !important;
+}
+
+.home-card-copy-ref small {
+    margin-top: 3px !important;
+    color: rgba(255,255,255,.82) !important;
+    font-family: "Roboto Condensed", sans-serif !important;
+    font-size: clamp(7px, 1.6vw, 10px) !important;
+    font-weight: 400 !important;
+    line-height: 1.05 !important;
+    text-shadow: 0 1px 4px rgba(0,0,0,.8) !important;
+}
+
+.home-card-ref::after {
+    content: "" !important;
+    position: absolute !important;
+    z-index: 3 !important;
+    left: 10px !important;
+    bottom: 5px !important;
+    width: 28px !important;
+    height: 2px !important;
+    background: var(--home-accent) !important;
+}
+
+.home-card-ref:hover .home-card-image-ref {
+    transform: scale(1.025);
+    filter: brightness(1.04);
+}
+
+.home-card-ref:active {
+    transform: scale(.985);
+}
+
+.home-card-arrow-ref,
+.home-quote-ref {
+    display: none !important;
+}
+
+/* light mode: photos stay photographic; only the UI changes */
+body.light-theme .home-card-ref {
+    background: var(--home-surface) !important;
+    border-color: var(--home-border) !important;
+    box-shadow: 0 4px 12px rgba(60,40,48,.12) !important;
+}
+
+body.light-theme .home-hero-ref {
+    border-color: var(--home-border) !important;
+    box-shadow: 0 7px 22px rgba(60,40,48,.12) !important;
+}
+
+@media (max-width: 420px) {
+    .home-content-ref {
+        padding: 0 9px 18px !important;
+    }
+
+    .home-topbar {
+        margin-left: -9px;
+        margin-right: -9px;
+        padding: 10px 10px 8px !important;
+    }
+
+    .home-topbar .brand {
+        font-size: 21px !important;
+    }
+
+    .home-topbar .subtitle {
+        font-size: 7px !important;
+        letter-spacing: 1.65px !important;
+    }
+
+    .home-topbar .topbar-icon,
+    .home-topbar .theme-toggle {
+        width: 32px !important;
+        height: 32px !important;
+        min-width: 32px !important;
+        flex-basis: 32px !important;
+        font-size: 16px !important;
+    }
+
+    .home-cards-ref {
+        gap: 5px !important;
+    }
+
+    .home-card-overlay-ref {
+        padding: 0 7px 7px !important;
+    }
+
+    .home-card-copy-ref strong {
+        font-size: 15px !important;
+    }
+
+    .home-card-copy-ref small {
+        font-size: 7px !important;
+    }
+
+    .home-card-ref::after {
+        left: 7px !important;
+        bottom: 4px !important;
+        width: 23px !important;
+    }
 }
