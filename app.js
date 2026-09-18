@@ -836,13 +836,8 @@ const screens = {
             <section class="home-cards-ref">
                 ${cards.map(card => `
                     <button class="home-card-ref" data-screen="${card.section}" type="button">
-                        <span class="home-card-image-ref" style="background-image:${card.image}"></span>
-                        <span class="home-card-overlay-ref">
-                            <span class="home-card-copy-ref">
-                                <strong>${card.title}</strong>
-                                <small>${card.subtitle}</small>
-                            </span>
-                        </span>
+                        <img class="home-card-image-ref" src="${card.image.replace(/^url\((.*)\)$/, "$1")}" alt="${card.title}" loading="lazy">
+                        <span class="home-card-overlay-ref"></span>
                     </button>
                 `).join("")}
             </section>
