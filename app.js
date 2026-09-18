@@ -64,7 +64,7 @@ function toggleTheme() {
     updateThemeButton();
 
     if (document.querySelector(".home-content")) {
-        navigate("home");
+        refreshHomeImages();
     }
 }
 
@@ -101,7 +101,19 @@ const cards = [
 
 function homeImage(file) {
     const theme = document.body.classList.contains("light-theme") ? "light" : "dark";
-    return `assets/home/${theme}/${file}`;
+    return `assets/home/${theme}/${file}?v=20260918`;
+}
+
+function refreshHomeImages() {
+    const isLight = document.body.classList.contains("light-theme");
+    const theme = isLight ? "light" : "dark";
+
+    document.querySelectorAll("[data-home-image]").forEach((image) => {
+        const file = image.dataset.homeImage;
+        if (file) {
+            image.src = `assets/home/${theme}/${file}?v=20260918-${theme}`;
+        }
+    });
 }
 
 
@@ -894,7 +906,7 @@ const screens = {
     home: `
         <main class="content home-content">
             <section class="home-hero">
-                <img class="home-hero-image" src="${homeImage("hero.jpg")}" alt="">
+                <img class="home-hero-image" data-home-image="hero.jpg" src="${homeImage("hero.jpg")}" alt="">
                 <div class="home-hero-shade"></div>
                 <div class="home-hero-copy">
                     <div class="home-hero-kicker">LOS SANTOS</div>
@@ -907,7 +919,7 @@ const screens = {
             <section class="visual-menu" aria-label="главное меню">
                 ${cards.map(card => `
                     <button class="visual-card" data-screen="${card.section}" type="button">
-                        <img class="visual-card-image" src="${homeImage(card.image)}" alt="">
+                        <img class="visual-card-image" data-home-image="${card.image}" src="${homeImage(card.image)}" alt="">
                         <span class="visual-card-shade"></span>
                         <span class="visual-card-content">
                             <span class="visual-card-copy">
@@ -921,7 +933,7 @@ const screens = {
             </section>
 
             <section class="home-footer">
-                <img src="${homeImage("hero.jpg")}" alt="">
+                <img data-home-image="hero.jpg" src="${homeImage("hero.jpg")}" alt="">
                 <span class="home-footer-shade"></span>
                 <div class="home-footer-copy">
                     <strong>Los Santos</strong>
@@ -1569,6 +1581,7 @@ function navigate(name) {
             : screens[name];
 
     screen.innerHTML = content;
+    refreshHomeImages();
 
 
     document
