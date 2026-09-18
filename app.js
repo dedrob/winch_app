@@ -896,21 +896,31 @@ const screens = {
             </header>
 
             <section class="home-hero-ref">
+                <img class="home-hero-image-ref" src="assets/home/hero-los-santos.jpg" alt="" aria-hidden="true">
                 <div class="hero-home-content-ref">
                     <div class="hero-label-ref">LOS SANTOS</div>
-                    <div class="hero-kicker-ref">NEVER SLEEPS</div>
-                    <h1>SAME CITY<br>DIFFERENT GRIND</h1>
-                    <span class="hero-script-ref">Los Santos</span>
+                    <div class="hero-kicker-ref">SAME CITY</div>
+                    <h1>DIFFERENT GRIND</h1>
+                    <span class="hero-script-ref" aria-hidden="true">Los Santos</span>
                 </div>
             </section>
 
             <section class="home-cards-ref">
                 ${cards.map(card => `
                     <button class="home-card-ref" data-screen="${card.section}" type="button">
-                        <img class="home-card-image-ref" src="${card.image.replace(/^url\((.*)\)$/, "$1")}" alt="${card.title}" loading="lazy">
-                        <span class="home-card-overlay-ref"></span>
+                        <img class="home-card-image-ref" src="${card.image.replace(/^url\((.*)\)$/, "$1")}" alt="" loading="lazy">
+                        <span class="home-card-overlay-ref">
+                            <strong>${card.title}</strong>
+                            <small>${card.subtitle}</small>
+                        </span>
                     </button>
                 `).join("")}
+            </section>
+
+            <section class="home-content-ref-bottom" aria-hidden="true">
+                <div class="home-script">Los Santos</div>
+                <div class="home-tagline">PLAY · PLAN · PROGRESS</div>
+                <div class="home-rule"></div>
             </section>
 
         </main>
