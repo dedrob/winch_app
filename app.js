@@ -62,10 +62,7 @@ function toggleTheme() {
     );
 
     updateThemeButton();
-
-    if (document.querySelector(".home-content")) {
-        refreshHomeImages();
-    }
+    refreshHomeImages();
 }
 
 function updateThemeButton() {
@@ -78,7 +75,7 @@ function updateThemeButton() {
     const isLight =
         document.body.classList.contains("light-theme");
 
-    button.textContent = isLight ? "☀" : "☾";
+    button.textContent = isLight ? "☾" : "☀";
     button.setAttribute("aria-label", isLight ? "включить тёмную тему" : "включить светлую тему");
     button.setAttribute("title", isLight ? "тёмная тема" : "светлая тема");
 }
@@ -91,31 +88,26 @@ function updateThemeButton() {
 const cards = [
     { section: "account",    title: "МОЙ АККАУНТ", subtitle: "MY ACCOUNT",  image: "account.jpg" },
     { section: "current",    title: "ЧТО СЕЙЧАС",  subtitle: "WHAT'S ON",    image: "current.jpg" },
-    { section: "activities", title: "АКТИВНОСТИ",   subtitle: "ACTIVITIES",  image: "activities.jpg" },
-    { section: "businesses", title: "БИЗНЕСЫ",      subtitle: "BUSINESSES",  image: "businesses.jpg" },
-    { section: "transport",  title: "ТРАНСПОРТ",    subtitle: "VEHICLES",    image: "vehicles.jpg" },
-    { section: "map",        title: "КАРТА",         subtitle: "MAP",         image: "map.jpg" },
-    { section: "goals",      title: "ЦЕЛИ",          subtitle: "GOALS",       image: "goals.jpg" },
-    { section: "progress",   title: "ПРОГРЕСС",      subtitle: "PROGRESS",    image: "progress.jpg" }
+    { section: "activities", title: "АКТИВНОСТИ",  subtitle: "ACTIVITIES",  image: "activities.jpg" },
+    { section: "businesses", title: "БИЗНЕСЫ",     subtitle: "BUSINESSES",  image: "businesses.jpg" },
+    { section: "transport",  title: "ТРАНСПОРТ",   subtitle: "VEHICLES",    image: "vehicles.jpg" },
+    { section: "map",        title: "КАРТА",        subtitle: "MAP",         image: "map.jpg" },
+    { section: "goals",      title: "ЦЕЛИ",         subtitle: "GOALS",       image: "goals.jpg" },
+    { section: "progress",   title: "ПРОГРЕСС",     subtitle: "PROGRESS",    image: "progress.jpg" }
 ];
 
 function homeImage(file) {
     const theme = document.body.classList.contains("light-theme") ? "light" : "dark";
-    return `assets/home/${theme}/${file}?v=20260918`;
+    return `assets/home/${theme}/${file}?v=20260918-${theme}`;
 }
 
 function refreshHomeImages() {
-    const isLight = document.body.classList.contains("light-theme");
-    const theme = isLight ? "light" : "dark";
-
+    const theme = document.body.classList.contains("light-theme") ? "light" : "dark";
     document.querySelectorAll("[data-home-image]").forEach((image) => {
         const file = image.dataset.homeImage;
-        if (file) {
-            image.src = `assets/home/${theme}/${file}?v=20260918-${theme}`;
-        }
+        if (file) image.src = `assets/home/${theme}/${file}?v=20260918-${theme}`;
     });
 }
-
 
 
 /* =========================
@@ -1182,16 +1174,6 @@ const screens = {
 
 
 
-
-    map: placeholder(
-        "карта",
-        "ключевые места лос сантоса"
-    ),
-
-    progress: placeholder(
-        "прогресс",
-        "уровни, цели и состояние аккаунта"
-    ),
 
     winch: `
         <main class="content">
