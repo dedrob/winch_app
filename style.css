@@ -4509,3 +4509,16 @@ body.light-theme .topbar #theme-toggle { color: #e84f82 !important; background: 
     .home-content .visual-card-copy small { font-size:6.5px !important; }
     .home-content .visual-arrow { width:24px !important; height:24px !important; min-width:24px !important; }
 }
+
+/* v6: home hero labels stay white in both themes */
+#screen > .home-content .home-hero-kicker,
+body.light-theme #screen > .home-content .home-hero-kicker {
+    color: #fff !important;
+}
+
+#screen > .home-content .home-hero-copy h1,
+body.light-theme #screen > .home-content .home-hero-copy h1,
+#screen > .home-content .home-hero-copy p,
+body.light-theme #screen > .home-content .home-hero-copy p {
+    color: #fff !important;
+}
