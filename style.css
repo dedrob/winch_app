@@ -1,3 +1,620 @@
+
+/* =========================================================
+   GTA ONLINE ASSISTANT
+   CLEAN MASTER STYLESHEET
+   ========================================================= */
+
+:root {
+    --bg: #0e111b;
+    --bg-soft: #121725;
+    --panel: #171d2a;
+    --panel-hover: #202839;
+
+    --text: #e9e8e8;
+    --text-bright: #ffffff;
+    --muted: #9da1ac;
+
+    --accent: #f42b78;
+    --accent-soft: rgba(244, 43, 120, .18);
+
+    --border: rgba(255, 255, 255, .13);
+    --border-strong: rgba(255, 255, 255, .20);
+
+    --shadow: rgba(0, 0, 0, .28);
+
+    --home-bg: #0e111b;
+    --home-surface: #151a27;
+    --home-text: #f4f2ee;
+    --home-muted: #d7d3ce;
+    --home-accent: #f42b78;
+    --home-border: rgba(255,255,255,.16);
+}
+
+body.light-theme {
+    --bg: #f6e9df;
+    --bg-soft: #f3e2d8;
+    --panel: #fff8f2;
+    --panel-hover: #f4e4da;
+
+    --text: #22252a;
+    --text-bright: #15171b;
+    --muted: #68686b;
+
+    --accent: #e82c72;
+    --accent-soft: rgba(232, 44, 114, .12);
+
+    --border: rgba(28, 27, 29, .13);
+    --border-strong: rgba(28, 27, 29, .22);
+
+    --shadow: rgba(71, 43, 34, .14);
+
+    --home-bg: #f7e9df;
+    --home-surface: #fff7f0;
+    --home-text: #18191d;
+    --home-muted: #34353a;
+    --home-accent: #e82c72;
+    --home-border: rgba(28, 27, 29, .16);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%;
+    background: var(--bg);
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Roboto Condensed", "Segoe UI", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: geometricPrecision;
+    transition: background-color .2s ease, color .2s ease;
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+button {
+    border: 0;
+    color: inherit;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+img {
+    max-width: 100%;
+}
+
+.app {
+    width: min(100%, 720px);
+    min-height: 100vh;
+    margin: 0 auto;
+    overflow-x: hidden;
+    background: var(--bg);
+}
+
+.content {
+    padding: 20px 16px 30px;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.topbar-brand {
+    min-width: 0;
+}
+
+.brand {
+    color: var(--text-bright);
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: .95;
+    letter-spacing: .5px;
+    white-space: nowrap;
+}
+
+.brand em {
+    color: var(--accent);
+    font-style: normal;
+}
+
+.subtitle {
+    margin-top: 5px;
+    color: var(--muted);
+    font-size: 8px;
+    letter-spacing: 2px;
+}
+
+.topbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    flex: 0 0 auto;
+}
+
+.topbar-icon {
+    width: 38px;
+    height: 38px;
+    min-width: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: 1px solid var(--border-strong);
+    border-radius: 8px;
+    background: var(--panel);
+    color: var(--text-bright);
+    font-size: 19px;
+    line-height: 1;
+    box-shadow: none;
+    transition: background .15s ease, border-color .15s ease, transform .12s ease;
+}
+
+.topbar-icon:hover {
+    border-color: rgba(244,43,120,.55);
+    background: var(--panel-hover);
+}
+
+.topbar-icon:active {
+    transform: scale(.94);
+}
+
+.back-button {
+    margin-bottom: 18px;
+    padding: 7px 0;
+    background: transparent;
+    color: var(--muted);
+    font-size: 11px;
+}
+
+.page-header {
+    margin-bottom: 20px;
+}
+
+.page-header h1 {
+    color: var(--text-bright);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: -1px;
+}
+
+.page-header p {
+    margin-top: 9px;
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* =========================================================
+   HOME
+   ========================================================= */
+
+.home-content-ref {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 22px 34px;
+    background: var(--home-bg);
+}
+
+.home-topbar {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 22px 5px 17px;
+    background: transparent;
+}
+
+.home-topbar .topbar-brand {
+    min-width: 0;
+    flex: 1 1 auto;
+}
+
+.home-topbar .brand {
+    font-family: "Oswald", "Arial Narrow", sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: .9;
+    letter-spacing: .15px;
+    color: var(--home-text);
+}
+
+.home-topbar .brand em {
+    color: var(--home-accent);
+    font-style: normal;
+}
+
+.home-topbar .subtitle {
+    margin-top: 7px;
+    color: var(--home-text);
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 2.8px;
+}
+
+.home-topbar .topbar-actions {
+    gap: 8px;
+}
+
+.home-topbar .topbar-icon {
+    width: 38px;
+    height: 38px;
+    min-width: 38px;
+    border: 1px solid var(--home-border);
+    border-radius: 9px;
+    background: transparent;
+    color: var(--home-text);
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    box-shadow: none;
+}
+
+.home-topbar #theme-toggle {
+    border-color: var(--home-border);
+    background: rgba(255,255,255,.08);
+    color: var(--home-text);
+}
+
+body.light-theme .home-topbar #theme-toggle {
+    background: rgba(255,255,255,.30);
+    border-color: rgba(30,29,31,.18);
+}
+
+.home-topbar .topbar-icon:hover,
+.home-topbar #theme-toggle:hover {
+    background: var(--accent-soft);
+    border-color: rgba(244,43,120,.55);
+}
+
+.home-hero-ref {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 558 / 313;
+    margin-bottom: 9px;
+    overflow: hidden;
+    border: 1px solid var(--home-border);
+    border-radius: 12px;
+    background-color: #17202c;
+    background-image: url("assets/home/hero-los-santos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 7px 20px var(--shadow);
+}
+
+body:not(.light-theme) .home-hero-ref {
+    background-image: url("assets/home/dark/hero-los-santos.jpg");
+}
+
+.home-hero-ref::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    background: linear-gradient(
+        180deg,
+        rgba(0,0,0,0) 42%,
+        rgba(0,0,0,.06) 54%,
+        rgba(0,0,0,.72) 100%
+    );
+}
+
+.hero-home-content-ref {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0 16px 14px;
+    pointer-events: none;
+}
+
+.hero-label-ref {
+    margin: 0 0 4px;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: .95;
+    letter-spacing: .2px;
+    text-shadow: 0 2px 4px rgba(0,0,0,.42);
+}
+
+.hero-kicker-ref {
+    order: 3;
+    margin-top: 3px;
+    color: #fff;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    text-shadow: 0 1px 4px rgba(0,0,0,.55);
+}
+
+.hero-home-content-ref h1 {
+    order: 2;
+    margin: 0;
+    color: #fff;
+    font-family: "Roboto Condensed", "Arial Narrow", sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 4px rgba(0,0,0,.55);
+}
+
+.hero-script-ref {
+    display: none !important;
+}
+
+.home-cards-ref {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    width: 100%;
+}
+
+.home-card-ref {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 0;
+    aspect-ratio: 353 / 146;
+    overflow: hidden;
+    padding: 0;
+    border: 1px solid var(--home-border);
+    border-radius: 11px;
+    background: #151a22;
+    text-align: left;
+    box-shadow: 0 4px 12px var(--shadow);
+    transform: translateZ(0);
+}
+
+.home-card-image-ref {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transform: scale(1.001);
+    transition: transform .22s ease, filter .22s ease;
+}
+
+.home-card-ref:nth-child(1) .home-card-image-ref { object-position: center 44%; }
+.home-card-ref:nth-child(2) .home-card-image-ref { object-position: center 48%; }
+.home-card-ref:nth-child(3) .home-card-image-ref { object-position: center 48%; }
+.home-card-ref:nth-child(4) .home-card-image-ref { object-position: center 50%; }
+.home-card-ref:nth-child(5) .home-card-image-ref { object-position: center 48%; }
+.home-card-ref:nth-child(6) .home-card-image-ref { object-position: center 48%; }
+.home-card-ref:nth-child(7) .home-card-image-ref { object-position: center 50%; }
+.home-card-ref:nth-child(8) .home-card-image-ref { object-position: center 50%; }
+
+body:not(.light-theme) .home-card-ref:nth-child(1) .home-card-image-ref {
+    content: url("assets/home/dark/account.jpg");
+}
+body:not(.light-theme) .home-card-ref:nth-child(2) .home-card-image-ref {
+    content: url("assets/home/dark/current.jpg");
+}
+body:not(.light-theme) .home-card-ref:nth-child(3) .home-card-image-ref {
+    content: url("assets/home/dark/weapons.jpg");
+}
+body:not(.light-theme) .home-card-ref:nth-child(4) .home-card-image-ref {
+    content: url("assets/home/dark/businesses.jpg");
+}
+body:not(.light-theme) .home-card-ref:nth-child(5) .home-card-image-ref {
+    content: url("assets/home/dark/transport.jpg");
+}
+body:not(.light-theme) .home-card-ref:nth-child(6) .home-card-image-ref {
+    content: url("assets/home/dark/map.jpg");
+}
+body:not(.light-theme) .home-card-ref:nth-child(7) .home-card-image-ref {
+    content: url("assets/home/dark/collections.jpg");
+}
+body:not(.light-theme) .home-card-ref:nth-child(8) .home-card-image-ref {
+    content: url("assets/home/dark/properties.jpg");
+}
+
+.home-card-overlay-ref {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 11px 12px;
+    pointer-events: none;
+    background: linear-gradient(
+        180deg,
+        rgba(0,0,0,0) 28%,
+        rgba(0,0,0,.04) 45%,
+        rgba(0,0,0,.76) 100%
+    );
+}
+
+.home-card-overlay-ref::before {
+    color: #fff;
+    font-family: "Oswald", "Arial Narrow", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: .95;
+    letter-spacing: .2px;
+    text-shadow: 0 2px 4px rgba(0,0,0,.48);
+}
+
+.home-card-overlay-ref::after {
+    content: "";
+    width: 30px;
+    height: 2px;
+    margin-top: 7px;
+    background: var(--home-accent);
+    box-shadow: 0 0 8px rgba(244,43,120,.15);
+}
+
+.home-card-ref:nth-child(1) .home-card-overlay-ref::before {
+    content: "МОЙ АККАУНТ";
+}
+.home-card-ref:nth-child(2) .home-card-overlay-ref::before {
+    content: "ЧТО СЕЙЧАС";
+}
+.home-card-ref:nth-child(3) .home-card-overlay-ref::before {
+    content: "АКТИВНОСТИ";
+}
+.home-card-ref:nth-child(4) .home-card-overlay-ref::before {
+    content: "БИЗНЕСЫ";
+}
+.home-card-ref:nth-child(5) .home-card-overlay-ref::before {
+    content: "ТРАНСПОРТ";
+}
+.home-card-ref:nth-child(6) .home-card-overlay-ref::before {
+    content: "КАРТА";
+}
+.home-card-ref:nth-child(7) .home-card-overlay-ref::before {
+    content: "ЦЕЛИ";
+}
+.home-card-ref:nth-child(8) .home-card-overlay-ref::before {
+    content: "ПРОГРЕСС";
+}
+
+.home-card-ref:hover .home-card-image-ref {
+    transform: scale(1.025);
+    filter: brightness(1.035);
+}
+
+.home-card-ref:active {
+    transform: scale(.987);
+}
+
+/* =========================================================
+   HOME BOTTOM DECORATION
+   ========================================================= */
+
+.home-content-ref::after {
+    content: "Los Santos";
+    display: block;
+    margin: 34px auto 0;
+    padding: 38px 0 26px;
+    width: 100%;
+    color: var(--home-accent);
+    font-family: "Dancing Script", cursive;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+    background:
+        linear-gradient(180deg, transparent 0 45%, rgba(0,0,0,.02) 100%);
+}
+
+.home-content-ref::before {
+    content: "PLAY  ·  PLAN  ·  PROGRESS";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: calc(100% + 20px);
+    color: var(--home-text);
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 9px;
+    letter-spacing: 3px;
+    text-align: center;
+    pointer-events: none;
+}
+
+@media (max-width: 520px) {
+    .home-content-ref {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .home-topbar {
+        padding-left: 3px;
+        padding-right: 3px;
+        gap: 10px;
+    }
+
+    .home-topbar .brand {
+        font-size: 24px;
+    }
+
+    .home-topbar .subtitle {
+        font-size: 8px;
+        letter-spacing: 2.3px;
+    }
+
+    .home-topbar .topbar-icon {
+        width: 34px;
+        height: 34px;
+        min-width: 34px;
+        font-size: 19px;
+    }
+
+    .home-cards-ref {
+        gap: 7px;
+    }
+
+    .home-card-ref {
+        aspect-ratio: 353 / 146;
+        border-radius: 9px;
+    }
+
+    .home-card-overlay-ref {
+        padding: 0 9px 10px;
+    }
+
+    .home-card-overlay-ref::before {
+        font-size: 15px;
+    }
+
+    .hero-home-content-ref {
+        padding: 0 13px 12px;
+    }
+
+    .hero-label-ref {
+        font-size: 21px;
+    }
+
+    .hero-home-content-ref h1 {
+        font-size: 10px;
+    }
+
+    .hero-kicker-ref {
+        font-size: 9px;
+    }
+}
+
+@media (min-width: 721px) {
+    .home-content-ref {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+}
+
+
 /* GTA Online Assistant — consolidated stylesheet */
 /* Rebuilt from the current UI source. One rule per selector/context. */
 
@@ -2782,421 +3399,6 @@ body.light-theme .map-hub-card > b {
     color: rgba(42,35,39,.58);
 }
 
-.home-nav-item.active {
-    color: var(--teal-bright);
-}
-
-body.light-theme .home-nav-item.active {
-    color: #cf587e;
-}
-
-body.light-theme .app {
-    background: #f3ebe6 !important;
-}
-
-body.light-theme .brand {
-    color: #19151a !important;
-}
-
-body.light-theme .subtitle {
-    color: #d6527d !important;
-}
-
-body.light-theme .topbar-icon {
-    background: #fffaf6 !important;
-    border-color: var(--border-strong);
-    color: #252027 !important;
-    box-shadow: 0 2px 8px rgba(65,48,54,.07) !important;
-    border: 1px solid rgba(48,38,43,.14) !important;
-    border-radius: 8px;
-}
-
-body.light-theme .visual-card,
-body.light-theme .visual-card.account-card,
-body.light-theme .visual-card.business-card,
-body.light-theme .visual-card.activities-card,
-body.light-theme .visual-card.collectibles-card,
-body.light-theme .visual-card.current-card,
-body.light-theme .visual-card.winch-card,
-body.light-theme .visual-card:nth-child(1),
-body.light-theme .visual-card:nth-child(2),
-body.light-theme .visual-card:nth-child(3),
-body.light-theme .visual-card:nth-child(4),
-body.light-theme .visual-card:nth-child(5),
-body.light-theme .visual-card:nth-child(6),
-body.light-theme .visual-card:nth-child(7),
-body.light-theme .visual-card:nth-child(8) {
-    background: #fffaf5 !important;
-    border: 1px solid rgba(48,38,43,.13) !important;
-    box-shadow: 0 3px 10px rgba(65,48,54,.055) !important;
-}
-
-.topbar {
-    position: relative;
-    top: 0;
-    z-index: 10;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 12px 14px 10px !important;
-    background: rgba(13, 11, 13, 0.90);
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
-    border-bottom: 0 !important;
-    min-height: 66px !important;
-    height: 66px !important;
-    box-shadow: none !important;
-}
-
-.topbar-brand {
-    min-width: 0 !important;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center !important;
-}
-
-.brand {
-    color: var(--text-bright);
-    font-size: 25px !important;
-    font-weight: 800;
-    letter-spacing: -.9px !important;
-    font-family: Impact, "Arial Narrow", "Roboto Condensed", Arial, sans-serif !important;
-    line-height: .92 !important;
-    white-space: nowrap;
-}
-
-.subtitle {
-    margin-top: 5px !important;
-    color: var(--teal-bright);
-    font-size: 8px !important;
-    font-weight: 700;
-    letter-spacing: 2.15px !important;
-    line-height: 1 !important;
-}
-
-.topbar-actions {
-    display: flex !important;
-    align-items: center !important;
-    gap: 8px !important;
-    margin-left: auto;
-    flex-shrink: 0 !important;
-}
-
-.topbar-icon {
-    width: 30px !important;
-    height: 30px !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 !important;
-    border: 1px solid var(--border-strong);
-    border-radius: 7px !important;
-    background: var(--panel);
-    color: var(--text);
-    font-size: 23px !important;
-    line-height: 30px !important;
-    cursor: pointer;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.16);
-    transition: background 0.15s ease,
-        border-color 0.15s ease,
-        transform 0.12s ease;
-    font-family: inherit;
-    min-width: 30px !important;
-}
-
-.topbar-actions #theme-toggle {
-    background: rgba(232, 130, 153, 0.12);
-    border-color: rgba(232, 130, 153, 0.55);
-    color: #e98299;
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    font-size: 19px !important;
-}
-
-.hero-home-content .hero-label {
-    margin-bottom: 2px !important;
-    color: #f3e9db;
-    font-size: 8px !important;
-    font-weight: 500;
-    letter-spacing: 2px !important;
-}
-
-body.light-theme,
-body.light-theme .app {
-    background: #f4eee9 !important;
-}
-
-body.light-theme .topbar {
-    background: #fbf7f3 !important;
-    border-bottom-color: rgba(45,35,42,.14);
-    border-bottom: 0 !important;
-    box-shadow: none !important;
-}
-
-body:not(.light-theme) .topbar {
-    background: #090b0c !important;
-}
-
-#screen > .home-content {
-    width: 100% !important;
-    box-sizing: border-box !important;
-    padding: 8px 6px 24px !important;
-    margin: 0 !important;
-}
-
-#screen > .home-content .home-hero {
-    width: 100% !important;
-    height: auto !important;
-    min-height: 0 !important;
-    aspect-ratio: 1.95 / 1 !important;
-    box-sizing: border-box !important;
-    margin: 0 0 9px !important;
-    padding: 13px 12px 12px !important;
-    border-radius: 12px !important;
-    overflow: hidden !important;
-    background-size: cover !important;
-    background-position: center !important;
-}
-
-#screen > .home-content .visual-card,
-#screen > .home-content .visual-card.winch-card {
-    width: 100% !important;
-    height: 92px !important;
-    min-height: 92px !important;
-    max-height: 92px !important;
-    box-sizing: border-box !important;
-    display: flex !important;
-    align-items: stretch !important;
-    overflow: hidden !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    border-radius: 10px !important;
-}
-
-body.light-theme #screen > .home-content .visual-card,
-body.light-theme #screen > .home-content .visual-card.winch-card {
-    background: #fffaf5 !important;
-    border-color: rgba(48,38,43,.13) !important;
-    box-shadow: 0 3px 10px rgba(65,48,54,.055) !important;
-}
-
-body.light-theme #screen > .home-content .visual-card strong {
-    color: #171319 !important;
-}
-
-body.light-theme #screen > .home-content .visual-card small {
-    color: #746a70 !important;
-}
-
-body.light-theme #screen > .home-content .visual-arrow {
-    color: #332d33 !important;
-}
-
-#screen > .home-content .home-hero,
-body.light-theme #screen > .home-content .home-hero {
-    background-image: linear-gradient(180deg, rgba(5,7,8,.02) 8%, rgba(5,7,8,.42) 100%), url("assets/home/hero-los-santos.jpg") !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    background-position: center !important;
-    width: 100% !important;
-    aspect-ratio: 2.18 / 1 !important;
-    height: auto !important;
-    min-height: 0 !important;
-    margin: 0 0 7px !important;
-    padding: 11px 10px 10px !important;
-    border-radius: 12px !important;
-    box-sizing: border-box !important;
-    overflow: hidden !important;
-}
-
-#screen > .home-content .hero-home-content {
-    position: relative !important;
-    width: 100% !important;
-    height: 100% !important;
-    min-height: 0 !important;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: flex-end !important;
-    align-items: flex-start !important;
-}
-
-#screen > .home-content .hero-home-content .hero-label {
-    margin: 0 0 2px !important;
-    color: #ef6d9c !important;
-    font-size: 7px !important;
-    line-height: 1 !important;
-    letter-spacing: 1.8px !important;
-    text-shadow: 0 1px 3px rgba(0,0,0,.35) !important;
-    margin-bottom: 2px !important;
-}
-
-#screen > .home-content .hero-home-content .hero-kicker {
-    margin: 0 0 6px !important;
-    color: #f7f0e4 !important;
-    font-size: 7px !important;
-    line-height: 1 !important;
-    letter-spacing: 1.65px !important;
-    text-shadow: 0 1px 3px rgba(0,0,0,.45) !important;
-    margin-bottom: 5px !important;
-}
-
-#screen > .home-content .hero-home-content h1,
-body.light-theme #screen > .home-content .hero-home-content h1 {
-    margin: 0 !important;
-    max-width: 205px !important;
-    color: #f7f0e4 !important;
-    font-family: "Arial Narrow", "Roboto Condensed", Impact, Arial, sans-serif !important;
-    font-size: clamp(23px, 6.7vw, 31px) !important;
-    font-weight: 900 !important;
-    line-height: .9 !important;
-    letter-spacing: -.55px !important;
-    text-shadow: 0 2px 5px rgba(0,0,0,.48) !important;
-}
-
-#screen > .home-content .hero-home-content .hero-script,
-body.light-theme #screen > .home-content .hero-home-content .hero-script {
-    right: 0 !important;
-    bottom: 0 !important;
-    color: #ef6d9c !important;
-    font-size: clamp(25px, 7vw, 34px) !important;
-    line-height: .9 !important;
-    text-shadow: 0 2px 5px rgba(0,0,0,.4) !important;
-}
-
-#screen > .home-content .visual-menu {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 4px !important;
-    margin: 0 !important;
-}
-
-#screen > .home-content .visual-card,
-#screen > .home-content .visual-card.winch-card,
-body.light-theme #screen > .home-content .visual-card,
-body.light-theme #screen > .home-content .visual-card.winch-card {
-    width: 100% !important;
-    height: 66px !important;
-    min-height: 66px !important;
-    max-height: 66px !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    border-radius: 9px !important;
-    box-sizing: border-box !important;
-    overflow: hidden !important;
-    display: flex !important;
-    align-items: stretch !important;
-}
-
-#screen > .home-content .visual-card-image {
-    flex: 0 0 38% !important;
-    width: 38% !important;
-    height: 100% !important;
-    min-height: 100% !important;
-    max-height: 100% !important;
-    margin: 0 !important;
-    border-radius: 0 !important;
-    background-size: cover !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-}
-
-#screen > .home-content .visual-card-body {
-    flex: 1 1 auto !important;
-    height: 100% !important;
-    min-height: 0 !important;
-    box-sizing: border-box !important;
-    padding: 8px 9px 8px 12px !important;
-}
-
-#screen > .home-content .visual-card strong {
-    font-size: 16px !important;
-    line-height: 1 !important;
-}
-
-#screen > .home-content .visual-card small {
-    margin-top: 3px !important;
-    font-size: 7.5px !important;
-    line-height: 1.2 !important;
-}
-
-#screen > .home-content .visual-arrow {
-    font-size: 22px !important;
-    line-height: 1 !important;
-    margin-right: 1px !important;
-}
-
-#screen > .home-content .home-quote {
-    width: 100% !important;
-    height: 66px !important;
-    min-height: 66px !important;
-    box-sizing: border-box !important;
-    margin: 7px 0 0 !important;
-    border-radius: 9px !important;
-    overflow: hidden !important;
-}
-
-.hero-home-content-ref {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-}
-
-.hero-label-ref,
-.hero-kicker-ref {
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 300;
-    color: #f4e9df;
-    text-shadow: 0 1px 3px rgba(0,0,0,.45);
-}
-
-.hero-label-ref {
-    font-size: 8px;
-    letter-spacing: 2px;
-}
-
-.hero-kicker-ref {
-    margin-top: 1px;
-    font-size: 8px;
-    letter-spacing: 1.8px;
-}
-
-.hero-home-content-ref h1 {
-    margin-top: 4px;
-    max-width: 245px;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 31px;
-    font-weight: 400;
-    line-height: .88;
-    letter-spacing: .2px;
-    color: #f5eee5;
-    text-shadow: 0 2px 5px rgba(0,0,0,.48);
-}
-
-.hero-script-ref {
-    position: absolute;
-    right: 4px;
-    bottom: -1px;
-    font-family: "Dancing Script", cursive;
-    font-size: 31px;
-    font-weight: 600;
-    line-height: .9;
-    color: #ed638e;
-    transform: rotate(-5deg);
-    text-shadow: 0 2px 5px rgba(0,0,0,.42);
-}
-
-body:not(.light-theme) .home-card-ref {
-    background: #101517;
-    border-color: rgba(255,255,255,.10);
-    box-shadow: 0 3px 10px rgba(0,0,0,.16);
-}
-
 .current-tabs {
     display: grid;
     grid-template-columns: repeat(3,minmax(0,1fr));
@@ -3251,475 +3453,7 @@ body:not(.light-theme) .home-card-ref {
     display: block;
 }
 
-.home-topbar .topbar-brand {
-    min-width: 0;
-    flex: 1 1 auto;
-}
-
-.home-topbar .topbar-icon {
-    width: 35px !important;
-    height: 35px !important;
-    padding: 0 !important;
-    border: 1px solid var(--border-strong);
-    border-radius: 7px !important;
-    background: var(--panel);
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 22px;
-    font-weight: 300;
-    min-width: 35px !important;
-}
-
-.home-hero-ref .hero-home-content-ref {
-    display: none !important;
-}
-
-:root {
-    --bg: #0d0b0d;
-    --bg-soft: #151015;
-    --panel: #171216;
-    --panel-hover: #20171c;
-    --text: #e8e0d0;
-    --text-bright: #f4eddf;
-    --muted: #8f9187;
-    --teal: #d86f91;
-    --teal-bright: #ee8fac;
-    --teal-dark: #8f455f;
-    --orange: #d8794c;
-    --orange-bright: #ed9360;
-    --sand: #c8b99c;
-    --border: rgba(205, 218, 202, 0.10);
-    --border-strong: rgba(205, 218, 202, 0.18);
-    --shadow: rgba(0, 0, 0, 0.45);
-    --home-bg: #0d1011;
-    --home-surface: #14191a;
-    --home-surface-2: #1a2021;
-    --home-text: #f0ebe3;
-    --home-muted: #a49f98;
-    --home-accent: #e84f82;
-    --home-border: rgba(255,255,255,.10);
-    --home-header: rgba(13,16,17,.92);
-}
-
-body {
-    min-height: 100vh;
-    color: var(--home-text);
-    transition: background-color .2s ease, color .2s ease;
-}
-
-.app {
-    width: 100%;
-    max-width: 720px;
-    min-height: 100vh;
-    margin: 0 auto;
-    background: var(--home-bg);
-}
-
-.home-content-ref {
-    padding: 0 12px 24px !important;
-    background: var(--home-bg);
-    box-sizing: border-box;
-    min-height: 100vh;
-}
-
-.home-topbar {
-    position: sticky !important;
-    top: 0;
-    padding: 13px 14px 11px !important;
-    background: var(--home-header) !important;
-    border: 0;
-    backdrop-filter: blur(18px);
-    -webkit-backdrop-filter: blur(18px);
-    display: flex !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-    gap: 10px !important;
-    z-index: 20;
-    margin: 0 -12px 8px;
-    border-bottom: 1px solid var(--home-border) !important;
-}
-
-.home-topbar .brand {
-    font-family: "Oswald", sans-serif !important;
-    font-size: 24px !important;
-    font-weight: 500 !important;
-    line-height: .95 !important;
-    letter-spacing: .5px !important;
-    color: var(--home-text) !important;
-    white-space: nowrap;
-}
-
-.home-topbar .brand em {
-    color: #d85f88;
-    font-style: normal;
-    font-weight: 400;
-}
-
-.home-topbar .subtitle {
-    margin-top: 5px !important;
-    font-family: "Oswald", sans-serif !important;
-    font-size: 8px !important;
-    font-weight: 500 !important;
-    letter-spacing: 2px !important;
-    color: var(--home-accent) !important;
-}
-
-.home-topbar .topbar-actions {
-    gap: 5px !important;
-    flex: 0 0 auto;
-    display: flex !important;
-    align-items: center !important;
-}
-
-.home-topbar .topbar-icon,
-.home-topbar .theme-toggle {
-    width: 34px !important;
-    height: 34px !important;
-    min-width: 34px !important;
-    flex-basis: 34px !important;
-    border: 1px solid var(--home-border) !important;
-    border-radius: 7px !important;
-    background: var(--home-surface) !important;
-    color: var(--home-text) !important;
-    box-shadow: none !important;
-}
-
-.home-topbar .theme-toggle {
-    color: var(--home-accent) !important;
-    border-color: color-mix(in srgb, var(--home-accent) 55%, transparent) !important;
-}
-
-.home-topbar .topbar-icon:hover,
-.home-topbar .theme-toggle:hover {
-    background: var(--home-surface-2) !important;
-    border-color: color-mix(in srgb, var(--home-accent) 65%, transparent) !important;
-}
-
-.home-hero-ref {
-    position: relative !important;
-    aspect-ratio: 558 / 313 !important;
-    min-height: 0;
-    margin-bottom: 10px;
-    padding: 0 !important;
-    overflow: hidden !important;
-    border: 1px solid var(--home-border) !important;
-    border-radius: 8px !important;
-    background-image: url("assets/home/hero-los-santos.jpg") !important;
-    background-size: cover !important;
-    background-position: center !important;
-    margin: 0 0 8px !important;
-    background-repeat: no-repeat !important;
-    width: 100%;
-    background-color: #15191a !important;
-    box-shadow: 0 7px 22px rgba(0,0,0,.16) !important;
-}
-
-.home-cards-ref {
-    display: grid !important;
-    flex-direction: column;
-    gap: 7px !important;
-    grid-template-columns: repeat(2, minmax(0,1fr)) !important;
-    width: 100% !important;
-}
-
-.home-card-ref::after {
-    content: "" !important;
-    position: absolute !important;
-    left: 10px !important;
-    bottom: 5px !important;
-    width: 28px !important;
-    height: 2px !important;
-    z-index: 3 !important;
-    background: var(--home-accent) !important;
-}
-
-.home-card-ref:hover .home-card-image-ref {
-    transform: scale(1.025);
-    filter: brightness(1.04);
-}
-
-.home-card-ref:active {
-    transform: scale(.985);
-}
-
-body.light-theme .home-card-ref {
-    background: var(--home-surface) !important;
-    border-color: var(--home-border) !important;
-    box-shadow: 0 4px 12px rgba(60,40,48,.12) !important;
-}
-
-body.light-theme .home-hero-ref {
-    border-color: var(--home-border) !important;
-    box-shadow: 0 7px 22px rgba(60,40,48,.12) !important;
-}
-
-.home-content-ref .home-card-overlay-ref {
-    display: none !important;
-}
-
-.home-content-ref .home-card-ref::after {
-    display: none !important;
-}
-
-.home-card-ref {
-    width: 100% !important;
-    height: auto !important;
-    min-height: 0 !important;
-    display: block !important;
-    align-items: stretch;
-    overflow: hidden;
-    padding: 0 !important;
-    border: 1px solid var(--home-border) !important;
-    border-radius: 8px !important;
-    background: var(--home-surface) !important;
-    text-align: left !important;
-    box-shadow: 0 4px 12px rgba(0,0,0,.12) !important;
-    position: relative;
-    min-width: 0 !important;
-    aspect-ratio: 353 / 126 !important;
-    transform: translateZ(0);
-}
-
-.home-card-image-ref {
-    flex: 0 0 39%;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    background-position: center !important;
-    position: absolute !important;
-    inset: 0 !important;
-    display: block;
-    transform: scale(1.001);
-    transition: transform .22s ease, filter .22s ease;
-    object-fit: cover;
-    object-position: center;
-}
-
-.home-card-overlay-ref {
-    position: absolute;
-    inset: 0;
-    z-index: 2 !important;
-    display: flex !important;
-    align-items: flex-end !important;
-    padding: 0 10px 9px !important;
-    box-sizing: border-box !important;
-    background: linear-gradient(
-        180deg,
-        rgba(0,0,0,0) 28%,
-        rgba(0,0,0,.16) 48%,
-        rgba(0,0,0,.82) 100%
-    ) !important;
-    pointer-events: none;
-}
-
-@media (max-width: 420px) {
-    .stat-card {
-        padding: 15px;
-    }
-
-    .stat-card strong {
-        font-size: 20px;
-    }
-
-    .topbar-icon {
-        width: 34px;
-        height: 34px;
-        font-size: 17px;
-    }
-
-    .topbar-actions {
-        gap: 5px;
-    }
-
-    .topbar-icon,
-        .theme-toggle {
-        width: 34px;
-        height: 34px;
-        flex-basis: 34px;
-        border-radius: 9px;
-        font-size: 17px;
-    }
-
-    .content {
-        padding-left: 11px;
-        padding-right: 11px;
-        padding: 20px 11px 25px;
-    }
-
-    .business-list {
-        grid-template-columns: repeat(2,minmax(0,1fr));
-        gap: 7px;
-    }
-
-    .business-card {
-        min-height: 108px;
-        padding: 11px;
-    }
-
-    .business-card-main strong {
-        font-size: 11px;
-    }
-
-    .business-overview-copy small,.activity-overview-copy small {
-        max-width: 110px;
-    }
-
-    .current-detail {
-        padding: 13px;
-    }
-
-    .current-detail#current-discounts .current-detail-body {
-        gap: 6px;
-    }
-
-    .current-vehicle-list {
-        gap: 6px;
-    }
-
-    .current-vehicle-card > strong {
-        padding: 7px 8px 8px;
-        font-size: 9px;
-    }
-
-    .current-discount-info {
-        padding: 8px;
-    }
-
-    .current-discount-info strong {
-        font-size: 10px;
-    }
-
-    .current-new-price {
-        font-size: 10px;
-    }
-
-    .edit-fields-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .statistics-hero {
-        grid-template-columns: 82px 1fr;
-    }
-
-    .account-money-split {
-        gap: 12px;
-    }
-
-    .activity-business-item .activity-check {
-        margin-top: 1px;
-    }
-
-    .activity-action {
-        max-width: 122px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-    .activity-business-info > div {
-        grid-template-columns: 82px minmax(0,1fr);
-        gap: 8px;
-    }
-
-    .activity-business-item .activity-item-side {
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .map-hub-grid {
-        gap: 7px;
-    }
-
-    .map-hub-card {
-        min-height: 116px;
-        padding: 12px;
-        border-radius: 9px;
-    }
-
-    .map-hub-card-content {
-        left: 12px;
-        right: 34px;
-        bottom: 12px;
-    }
-
-    .map-hub-card strong {
-        font-size: 14px;
-    }
-
-    .map-hub-card small {
-        font-size: 8px;
-    }
-
-    .topbar {
-        padding-left: 15px;
-        padding-right: 15px;
-        padding: 12px 14px 10px !important;
-        height: 66px !important;
-        min-height: 66px !important;
-    }
-
-    .brand {
-        font-size: 24px !important;
-    }
-
-    #screen > .home-content {
-        padding: 8px 6px 24px !important;
-    }
-
-    #screen > .home-content .home-quote {
-        height: 88px !important;
-        min-height: 88px !important;
-    }
-
-    #screen > .home-content .home-hero {
-        aspect-ratio: 2.18 / 1 !important;
-        padding: 11px 10px 10px !important;
-        border-radius: 12px !important;
-    }
-
-    #screen > .home-content .visual-card,
-        #screen > .home-content .visual-card.winch-card {
-        height: 66px !important;
-        min-height: 66px !important;
-        max-height: 66px !important;
-        border-radius: 9px !important;
-    }
-
-    #screen > .home-content .visual-card-image {
-        flex-basis: 38% !important;
-        width: 38% !important;
-    }
-
-    #screen > .home-content .visual-card-body {
-        padding: 8px 8px 8px 12px !important;
-    }
-
-    #screen > .home-content .visual-card strong {
-        font-size: 16px !important;
-    }
-
-    #screen > .home-content .visual-card small {
-        font-size: 7.5px !important;
-    }
-
-    .hero-home-content-ref h1 {
-        font-size: 28px;
-    }
-
-    .hero-script-ref {
-        font-size: 28px;
-    }
-
-    .home-card-ref {
-        height: 72px;
-        min-height: 72px;
-    }
-
-    .home-card-image-ref {
-        flex-basis: 38%;
-        width: 38%;
-    }
-
-    .current-tabs {
+.current-tabs {
         grid-template-columns: repeat(2,minmax(0,1fr));
     }
 
@@ -3777,7 +3511,6 @@ body.light-theme .home-hero-ref {
         bottom: 4px !important;
         width: 23px !important;
     }
-}
 
 @media (max-width: 560px) {
     .activity-item-side {
@@ -4344,11 +4077,11 @@ body.light-theme #screen > .home-content-ref {
 .goals-summary span, .progress-level-card span, .progress-note span { display:block; font-size:9px; letter-spacing:1.5px; color:var(--home-muted); }
 .goals-summary strong { display:block; margin-top:5px; font-size:26px; }
 .goal-add-form { display:grid; gap:7px; margin:12px 0; }
-.goal-add-form input { width:100%; box-sizing:border-box; border:1px solid var(--border-strong); border-radius:8px; padding:11px 12px; background:var(--surface-2); color:var(--text); }
-.goal-add-form button, .goal-check, .goal-delete { border:1px solid var(--border-strong); background:var(--surface-2); color:var(--text); border-radius:8px; }
+.goal-add-form input { width:100%; box-sizing:border-box; border:1px solid var(--border-strong); border-radius:8px; padding:11px 12px; background:var(--panel-hover); color:var(--text); }
+.goal-add-form button, .goal-check, .goal-delete { border:1px solid var(--border-strong); background:var(--panel-hover); color:var(--text); border-radius:8px; }
 .goal-add-form button { padding:11px 13px; color:var(--teal-bright); }
 .goal-list { display:grid; gap:7px; }
-.goal-item { display:grid; grid-template-columns:34px 1fr 32px; align-items:center; gap:9px; border:1px solid var(--border); border-radius:10px; background:var(--surface); padding:9px; }
+.goal-item { display:grid; grid-template-columns:34px 1fr 32px; align-items:center; gap:9px; border:1px solid var(--border); border-radius:10px; background:var(--panel); padding:9px; }
 .goal-item.done { opacity:.58; }
 .goal-item.done .goal-copy strong { text-decoration:line-through; }
 .goal-check { width:32px; height:32px; font-size:16px; }
@@ -4359,7 +4092,7 @@ body.light-theme #screen > .home-content-ref {
 .goal-empty span { font-size:9px; letter-spacing:1.5px; }
 .progress-level-card { margin:12px 0; }
 .progress-level-card strong { display:block; font-size:34px; margin:5px 0 12px; }
-.progress-meter { height:6px; border-radius:99px; background:var(--surface-2); overflow:hidden; }
+.progress-meter { height:6px; border-radius:99px; background:var(--panel-hover); overflow:hidden; }
 .progress-meter i { display:block; height:100%; background:var(--teal-bright); }
 .progress-level-card small { display:block; margin-top:7px; color:var(--muted); }
 .progress-list { display:grid; gap:7px; margin-bottom:12px; }
