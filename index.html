@@ -6,7 +6,7 @@
 
     <title>GTA Online Assistant</title>
 
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="https://telegram.org/js/telegram-web-app.js?v=20260918"></script>
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
 
@@ -14,25 +14,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500;600&family=Oswald:wght@400;500;600&family=Roboto+Condensed:wght@300;400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=20260918">
 </head>
 <body>
     <div class="app">
         <header class="topbar">
             <div class="topbar-brand">
-                <div class="brand"><span>GTA ONLINE</span> <em>ASSISTANT</em></div>
+                <div class="brand">GTA ONLINE <span>ASSISTANT</span></div>
                 <div class="subtitle">LOS SANTOS · SAN ANDREAS</div>
             </div>
+
             <div class="topbar-actions">
-                <button class="topbar-icon theme-toggle" id="theme-toggle" type="button" aria-label="переключить тему"></button>
+                <button id="theme-toggle" class="topbar-icon theme-icon" type="button" aria-label="сменить тему">☾</button>
                 <button class="topbar-icon" type="button" aria-label="настройки">⚙</button>
-                <button class="topbar-icon menu-toggle" type="button" aria-label="меню">☰</button>
+                <button class="topbar-icon" type="button" aria-label="меню">☰</button>
             </div>
         </header>
+
         <main id="screen"></main>
     </div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-    <script src="app.js"></script>
+    <script src="app.js?v=20260918"></script>
 </body>
 </html>

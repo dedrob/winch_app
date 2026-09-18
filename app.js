@@ -78,7 +78,7 @@ function updateThemeButton() {
     const isLight =
         document.body.classList.contains("light-theme");
 
-    button.textContent = isLight ? "☾" : "☀";
+    button.textContent = isLight ? "☀" : "☾";
     button.setAttribute("aria-label", isLight ? "включить тёмную тему" : "включить светлую тему");
     button.setAttribute("title", isLight ? "тёмная тема" : "светлая тема");
 }
