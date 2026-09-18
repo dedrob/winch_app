@@ -62,6 +62,10 @@ function toggleTheme() {
     );
 
     updateThemeButton();
+
+    if (document.querySelector(".home-content")) {
+        navigate("home");
+    }
 }
 
 function updateThemeButton() {
@@ -85,15 +89,21 @@ function updateThemeButton() {
    ========================= */
 
 const cards = [
-    { section: "account", title: "МОЙ АККАУНТ", subtitle: "статистика, деньги, персонаж", image: "url(assets/home/account.jpg)" },
-    { section: "current", title: "ЧТО СЕЙЧАС", subtitle: "события, бонусы, новости недели", image: "url(assets/home/current.jpg)" },
-    { section: "activities", title: "АКТИВНОСТИ", subtitle: "ограбления, миссии, cooldown", image: "url(assets/home/weapons.jpg)" },
-    { section: "businesses", title: "БИЗНЕСЫ", subtitle: "управление, доходы, улучшения", image: "url(assets/home/businesses.jpg)" },
-    { section: "transport", title: "ТРАНСПОРТ", subtitle: "машины, модификации, хранилища", image: "url(assets/home/transport.jpg)" },
-    { section: "map", title: "КАРТА", subtitle: "локации, коллекции, точки интереса", image: "url(assets/home/map.jpg)" },
-    { section: "goals", title: "ЦЕЛИ", subtitle: "что хочешь сделать, купить, собрать", image: "url(assets/home/collections.jpg)" },
-    { section: "progress", title: "ПРОГРЕСС", subtitle: "карьера, испытания, достижения", image: "url(assets/home/properties.jpg)" }
+    { section: "account",    title: "МОЙ АККАУНТ", subtitle: "MY ACCOUNT",  image: "account.jpg" },
+    { section: "current",    title: "ЧТО СЕЙЧАС",  subtitle: "WHAT'S ON",    image: "current.jpg" },
+    { section: "activities", title: "АКТИВНОСТИ",   subtitle: "ACTIVITIES",  image: "activities.jpg" },
+    { section: "businesses", title: "БИЗНЕСЫ",      subtitle: "BUSINESSES",  image: "businesses.jpg" },
+    { section: "transport",  title: "ТРАНСПОРТ",    subtitle: "VEHICLES",    image: "vehicles.jpg" },
+    { section: "map",        title: "КАРТА",         subtitle: "MAP",         image: "map.jpg" },
+    { section: "goals",      title: "ЦЕЛИ",          subtitle: "GOALS",       image: "goals.jpg" },
+    { section: "progress",   title: "ПРОГРЕСС",      subtitle: "PROGRESS",    image: "progress.jpg" }
 ];
+
+function homeImage(file) {
+    const theme = document.body.classList.contains("light-theme") ? "light" : "dark";
+    return `assets/home/${theme}/${file}`;
+}
+
 
 
 /* =========================
@@ -882,49 +892,46 @@ function renderProgress() {
 const screens = {
 
     home: `
-        <main class="content home-content-ref">
-            <header class="topbar home-topbar">
-                <div class="topbar-brand">
-                    <div class="brand"><span>GTA ONLINE</span> <em>ASSISTANT</em></div>
-                    <div class="subtitle">LOS SANTOS · SAN ANDREAS</div>
-                </div>
-                <div class="topbar-actions">
-                    <button id="theme-toggle" class="topbar-icon" type="button" aria-label="сменить тему">☀</button>
-                    <button class="topbar-icon" type="button" aria-label="настройки">⚙</button>
-                    <button class="topbar-icon" type="button" aria-label="меню">☰</button>
-                </div>
-            </header>
-
-            <section class="home-hero-ref">
-                <img class="home-hero-image-ref" src="assets/home/hero-los-santos.jpg" alt="" aria-hidden="true">
-                <div class="hero-home-content-ref">
-                    <div class="hero-label-ref">LOS SANTOS</div>
-                    <div class="hero-kicker-ref">SAME CITY</div>
-                    <h1>DIFFERENT GRIND</h1>
-                    <span class="hero-script-ref" aria-hidden="true">Los Santos</span>
+        <main class="content home-content">
+            <section class="home-hero">
+                <img class="home-hero-image" src="${homeImage("hero.jpg")}" alt="">
+                <div class="home-hero-shade"></div>
+                <div class="home-hero-copy">
+                    <div class="home-hero-kicker">LOS SANTOS</div>
+                    <h1>LOS SANTOS</h1>
+                    <p>SAME CITY<br>DIFFERENT GRIND</p>
+                    <span class="home-accent"></span>
                 </div>
             </section>
 
-            <section class="home-cards-ref">
+            <section class="visual-menu" aria-label="главное меню">
                 ${cards.map(card => `
-                    <button class="home-card-ref" data-screen="${card.section}" type="button">
-                        <img class="home-card-image-ref" src="${card.image.replace(/^url\((.*)\)$/, "$1")}" alt="" loading="lazy">
-                        <span class="home-card-overlay-ref">
-                            <strong>${card.title}</strong>
-                            <small>${card.subtitle}</small>
+                    <button class="visual-card" data-screen="${card.section}" type="button">
+                        <img class="visual-card-image" src="${homeImage(card.image)}" alt="">
+                        <span class="visual-card-shade"></span>
+                        <span class="visual-card-content">
+                            <span class="visual-card-copy">
+                                <strong>${card.title}</strong>
+                                <small>${card.subtitle}</small>
+                            </span>
+                            <span class="visual-arrow" aria-hidden="true"></span>
                         </span>
                     </button>
                 `).join("")}
             </section>
 
-            <section class="home-content-ref-bottom" aria-hidden="true">
-                <div class="home-script">Los Santos</div>
-                <div class="home-tagline">PLAY · PLAN · PROGRESS</div>
-                <div class="home-rule"></div>
+            <section class="home-footer">
+                <img src="${homeImage("hero.jpg")}" alt="">
+                <span class="home-footer-shade"></span>
+                <div class="home-footer-copy">
+                    <strong>Los Santos</strong>
+                    <span>PLAY · PLAN · PROGRESS</span>
+                    <i></i>
+                </div>
             </section>
-
         </main>
     `,
+
     account: () => {
         const data = getAccountData();
         const totalMoney = Number(data.cash || 0) + Number(data.bank || 0);
@@ -1163,6 +1170,16 @@ const screens = {
 
 
 
+
+    map: placeholder(
+        "карта",
+        "ключевые места лос сантоса"
+    ),
+
+    progress: placeholder(
+        "прогресс",
+        "уровни, цели и состояние аккаунта"
+    ),
 
     winch: `
         <main class="content">
