@@ -85,14 +85,14 @@ function updateThemeButton() {
    ========================= */
 
 const cards = [
-    { section: "current", title: "ЧТО СЕЙЧАС", subtitle: "события, бонусы, новости", image: "url(assets/home/current.jpg)" },
+    { section: "account", title: "МОЙ АККАУНТ", subtitle: "статистика, деньги, персонаж", image: "url(assets/home/account.jpg)" },
+    { section: "current", title: "ЧТО СЕЙЧАС", subtitle: "события, бонусы, новости недели", image: "url(assets/home/current.jpg)" },
+    { section: "activities", title: "АКТИВНОСТИ", subtitle: "ограбления, миссии, cooldown", image: "url(assets/home/weapons.jpg)" },
     { section: "businesses", title: "БИЗНЕСЫ", subtitle: "управление, доходы, улучшения", image: "url(assets/home/businesses.jpg)" },
-    { section: "transport", title: "ТРАНСПОРТ", subtitle: "ваши машины, модификации, хранилище", image: "url(assets/home/transport.jpg)" },
-    { section: "map", title: "КАРТА", subtitle: "локации, коллекционки, интересные места", image: "url(assets/home/map.jpg)" },
-    { section: "weapons", title: "ОРУЖИЕ", subtitle: "арсенал, экипировка, боеприпасы", image: "url(assets/home/weapons.jpg)" },
-    { section: "properties", title: "НЕДВИЖИМОСТЬ", subtitle: "дома, гаражи, помещения", image: "url(assets/home/properties.jpg)" },
-    { section: "collections", title: "КОЛЛЕКЦИИ", subtitle: "коллекционные предметы и прогресс", image: "url(assets/home/collections.jpg)" },
-    { section: "account", title: "МОЙ АККАУНТ", subtitle: "статистика, прогресс, цели", image: "url(assets/home/account.jpg)" }
+    { section: "transport", title: "ТРАНСПОРТ", subtitle: "машины, модификации, хранилища", image: "url(assets/home/transport.jpg)" },
+    { section: "map", title: "КАРТА", subtitle: "локации, коллекции, точки интереса", image: "url(assets/home/map.jpg)" },
+    { section: "goals", title: "ЦЕЛИ", subtitle: "что хочешь сделать, купить, собрать", image: "url(assets/home/collections.jpg)" },
+    { section: "progress", title: "ПРОГРЕСС", subtitle: "карьера, испытания, достижения", image: "url(assets/home/properties.jpg)" }
 ];
 
 
@@ -808,6 +808,77 @@ function renderMapHub() {
     </main>`;
 }
 
+function getGoals() {
+    try {
+        const saved = JSON.parse(localStorage.getItem("winch-goals") || "[]");
+        return Array.isArray(saved) ? saved : [];
+    } catch (error) {
+        return [];
+    }
+}
+
+function saveGoals(goals) {
+    localStorage.setItem("winch-goals", JSON.stringify(goals));
+}
+
+function renderGoals() {
+    const goals = getGoals();
+    const done = goals.filter(goal => goal.done).length;
+    const active = goals.length - done;
+    const items = goals.length ? goals.map((goal, index) => `
+        <div class="goal-item ${goal.done ? "done" : ""}">
+            <button type="button" class="goal-check" data-toggle-goal="${index}">${goal.done ? "✓" : ""}</button>
+            <div class="goal-copy"><strong>${escapeHtml(goal.title)}</strong><small>${escapeHtml(goal.note || "личная цель")}</small></div>
+            <button type="button" class="goal-delete" data-delete-goal="${index}" aria-label="удалить">×</button>
+        </div>`).join("") : `<div class="goal-empty"><span>ПОКА ПУСТО</span><p>Добавь первую цель — покупку, накопление, коллекцию или любое личное достижение.</p></div>`;
+
+    return `
+    <main class="content goals-screen">
+        <button class="back-button" data-screen="home" type="button">← главное меню</button>
+        <section class="page-header">
+            <div class="hero-label">ЛИЧНЫЙ ПЛАН</div>
+            <h1>цели</h1>
+            <p>Твои собственные планы в GTA Online — отдельно от автоматического прогресса игры.</p>
+        </section>
+        <section class="goals-summary"><div><span>АКТИВНЫЕ</span><strong>${active}</strong></div><div><span>ВЫПОЛНЕНО</span><strong>${done}</strong></div></section>
+        <form class="goal-add-form" id="goal-add-form">
+            <input id="goal-title" type="text" maxlength="80" placeholder="например: накопить $10 млн" required>
+            <input id="goal-note" type="text" maxlength="100" placeholder="короткая заметка (необязательно)">
+            <button type="submit">добавить цель</button>
+        </form>
+        <section class="goal-list">${items}</section>
+    </main>`;
+}
+
+function renderProgress() {
+    const data = getAccountData();
+    const levelPercent = Math.min(100, Math.round((Number(data.level || 0) / 8000) * 100));
+    const statRows = [
+        ["карьера", "Career Progress", `${Math.min(100, Math.round(Number(data.missions || 0) / 500 * 100))}%`],
+        ["испытания", "Awards", "в разработке"],
+        ["ограбления", "Heists", `${data.heists || 0} пройдено`],
+        ["задания", "Missions", `${Number(data.missions || 0).toLocaleString("ru-RU")} выполнено`]
+    ];
+    return `
+    <main class="content progress-screen">
+        <button class="back-button" data-screen="home" type="button">← главное меню</button>
+        <section class="page-header">
+            <div class="hero-label">CAREER · AWARDS · MILESTONES</div>
+            <h1>прогресс</h1>
+            <p>Общий экран для долгосрочного прогресса, испытаний и достижений персонажа.</p>
+        </section>
+        <section class="progress-level-card">
+            <div><span>УРОВЕНЬ ПЕРСОНАЖА</span><strong>${data.level}</strong></div>
+            <div class="progress-meter"><i style="width:${levelPercent}%"></i></div>
+            <small>${levelPercent}% от максимального уровня 8000</small>
+        </section>
+        <section class="progress-list">
+            ${statRows.map(row => `<div class="progress-row"><div><span>${escapeHtml(row[0])}</span><strong>${escapeHtml(row[1])}</strong></div><b>${escapeHtml(row[2])}</b></div>`).join("")}
+        </section>
+        <section class="progress-note"><span>ИДЕЯ РАЗДЕЛА</span><p>Здесь будут собираться Career Progress, Awards, разблокировки и другие долгосрочные показатели — без смешивания их с личными целями.</p></section>
+    </main>`;
+}
+
 const screens = {
 
     home: `
@@ -1051,10 +1122,9 @@ const screens = {
 
     activities: renderActivities,
 
-    goals: placeholder(
-        "цели",
-        "что ты собираешься купить"
-    ),
+    goals: renderGoals,
+
+    progress: renderProgress,
 
     map: renderMapHub,
 
@@ -1927,6 +1997,42 @@ document.addEventListener("click", (event) => {
     if (refresh) {
         refresh.textContent = "актуально";
         setTimeout(() => { refresh.textContent = "обновить"; }, 900);
+    }
+});
+
+/* =========================
+   GOALS INTERACTIONS
+   ========================= */
+
+document.addEventListener("submit", (event) => {
+    const form = event.target.closest("#goal-add-form");
+    if (!form) return;
+    event.preventDefault();
+    const title = document.getElementById("goal-title")?.value.trim();
+    const note = document.getElementById("goal-note")?.value.trim();
+    if (!title) return;
+    const goals = getGoals();
+    goals.push({ title, note, done: false });
+    saveGoals(goals);
+    navigate("goals");
+});
+
+document.addEventListener("click", (event) => {
+    const toggle = event.target.closest("[data-toggle-goal]");
+    if (toggle) {
+        const goals = getGoals();
+        const index = Number(toggle.dataset.toggleGoal);
+        if (goals[index]) goals[index].done = !goals[index].done;
+        saveGoals(goals);
+        navigate("goals");
+        return;
+    }
+    const del = event.target.closest("[data-delete-goal]");
+    if (del) {
+        const goals = getGoals();
+        goals.splice(Number(del.dataset.deleteGoal), 1);
+        saveGoals(goals);
+        navigate("goals");
     }
 });
 
